@@ -1,0 +1,136 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ed7c0781-0d20-4118-b9de-6cfbb6417a17")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 109.22 55.88)
+		(size 25.4 14.605)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "16bd232e-5ea0-49a5-b25c-6403c4d2754c")
+		(property "Sheetname" "Flyback converter"
+			(at 109.22 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "flyback.kicad_sch"
+			(at 109.22 71.0696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "flyback-pcb"
+				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 86.36)
+		(size 23.495 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c2a714f4-2f0d-4f97-91a2-4e2ae3601671")
+		(property "Sheetname" "USB"
+			(at 157.48 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 157.48 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "flyback-pcb"
+				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.075 97.79)
+		(size 22.86 17.145)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6f3b632-57ee-4368-8954-2ac72372b096")
+		(property "Sheetname" "ac-dc"
+			(at 92.075 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ac-dc.kicad_sch"
+			(at 92.075 115.5196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "flyback-pcb"
+				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
