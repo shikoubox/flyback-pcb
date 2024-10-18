@@ -5,4 +5,40 @@
 	(uuid "cd410b7c-07db-444e-a4bf-852edf5ed3b2")
 	(paper "A4")
 	(lib_symbols)
+	(text_box "ERJ"
+		(exclude_from_sim no)
+		(at 160.02 87.63 0)
+		(size 12.7 12.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "3a9b3c39-6306-4270-9aa0-bde4bf2b679e")
+	)
+	(text_box "ERJ"
+		(exclude_from_sim no)
+		(at 168.91 116.84 0)
+		(size 12.7 12.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "d6661516-7f59-4898-8939-b793f2d08689")
+	)
 )
