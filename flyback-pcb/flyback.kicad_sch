@@ -5,6 +5,568 @@
 	(uuid "cd410b7c-07db-444e-a4bf-852edf5ed3b2")
 	(paper "A4")
 	(lib_symbols
+		(symbol "0ZCA0100FF2E:0ZCA0100FF2E"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -3.81 1.4986 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "0ZCA0100FF2E"
+				(at -3.81 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "0ZCA0100FF2E:RESC3216X125N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Bel Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nPolymeric PTC Resettable Fuse 6V 1 A Ih Surface Mount 1206 (3216 Metric), Concave\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "1206 Bel Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/0ZCA0100FF2E/Bel+Fuse+Inc./view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "0ZCA0100FF2E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/0ZCA0100FF2E/Bel+Fuse+Inc./view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "0ZCA0100FF2E_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.159 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -0.889 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy 0.381 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.651 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.016) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "B88069X2701S102:B88069X2701S102"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "B88069X2701S102"
+				(at 5.08 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "B88069X2701S102:RESAD1540W100L790D820"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "EPCOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "8.2 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/B88069X2701S102/EPCOS/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "7/28/2022"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/B88069X2701S102/EPCOS/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "B88069X2701S102"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nGDT 2 Electrode Surge Arrester\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "TDK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "B88069X2701S102_0_0"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -2.54) (xy 0.635 -2.54) (xy 0 -1.27) (xy -0.635 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 2.54) (xy -0.635 2.54) (xy 0 1.27) (xy 0.635 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 3.81)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -1.27)
+					(radius 0.1588)
+					(stroke
+						(width 0.3175)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -268,6 +830,348 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MS32_50006:MS32_50006"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RT"
+				(at -5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MS32_50006"
+				(at -5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "MS32_50006:THERM_MS32_50006"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Ametherm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "39.35mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MS32%2050006/Ametherm/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "02/20/2012"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MS32%2050006/Ametherm/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "MS32 50006"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nInrush Current Limiter 50 Ohms ±25% 6 A 1.220 (31.00mm)\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Ametherm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "MS32 50006"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MS32_50006_0_0"
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 -2.54) (xy -5.334 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 -2.54) (xy 3.556 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -789,6 +1693,356 @@
 				)
 			)
 		)
+		(symbol "WE-LF_SMD_SH:WE-LF_SMD_SH"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 3.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "WE-LF_SMD_SH"
+				(at -4.44 -5.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "WE-LF_SMD_SH:WE-LF_SMD_SH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Würth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nCMC 6.8MH 1.4A 2LN SMD\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Horizontal-4 Wurth Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/7446631007/Wurth+Elektronik/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "7446631007"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/7446631007/Wurth+Elektronik/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "WE-LF_SMD_SH_0_0"
+				(circle
+					(center -5.3 -0.6)
+					(radius 0.1)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.3 0.7)
+					(radius 0.1)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 2.54)
+					(mid -3.81 1.2755)
+					(end -2.54 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.54)
+					(mid -3.81 -1.2755)
+					(end -5.08 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.54)
+					(mid -1.27 1.2755)
+					(end 0 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.54)
+					(mid -1.27 -1.2755)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -0.635) (xy 4.445 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 0.635) (xy 4.445 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.54)
+					(mid 1.27 1.2755)
+					(end 2.54 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -2.54)
+					(mid 1.27 -1.2755)
+					(end 0 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 2.54)
+					(mid 3.81 1.2755)
+					(end 5.08 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 -2.54)
+					(mid 3.81 -1.2755)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "WE-LPCC:WE-LPCC"
 			(pin_names
 				(offset 1.016)
@@ -1221,14 +2475,90 @@
 		)
 	)
 	(junction
-		(at 81.28 71.12)
+		(at 97.79 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "253e2997-9214-49a8-8cfb-f303022697dd")
+	)
+	(junction
+		(at 181.61 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "271724d1-d8fc-4620-95cb-6086bd38b52f")
+	)
+	(junction
+		(at 76.2 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40b4a69f-1108-4bc6-9529-03ae966779f5")
+	)
+	(junction
+		(at 139.7 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ef6ca7f-92ce-43a6-bc76-1a773042463a")
 	)
+	(junction
+		(at 165.1 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7371b331-5705-42f1-9b79-85fbc9655d45")
+	)
+	(junction
+		(at 76.2 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "786f60d5-6adc-46e2-ba4a-a407b257e2d7")
+	)
+	(junction
+		(at 139.7 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bcfc433-63f2-493e-b7b7-a1a4ad671cb6")
+	)
+	(junction
+		(at 88.9 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b75fe8f-b8ae-4eb6-bd41-c00f337de22b")
+	)
+	(junction
+		(at 88.9 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b209195f-ed24-4da2-8cd7-3ba883910164")
+	)
+	(junction
+		(at 88.9 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b31a643e-4d6c-449d-afd7-6fdc62e57f5e")
+	)
+	(junction
+		(at 97.79 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7aeee2e-7a86-472b-be98-19ab628b1963")
+	)
+	(junction
+		(at 88.9 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6a5ad23-17f2-4998-a3e2-f4c472a5217e")
+	)
 	(wire
 		(pts
-			(xy 69.85 82.55) (xy 81.28 82.55)
+			(xy 88.9 77.47) (xy 88.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02ccd74d-6047-4e25-976e-a9fda8615ace")
+	)
+	(wire
+		(pts
+			(xy 128.27 93.98) (xy 139.7 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1238,7 +2568,27 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 77.47) (xy 39.37 86.36)
+			(xy 165.1 82.55) (xy 187.96 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd8f59d-f3b4-4234-8beb-6fe1973565fc")
+	)
+	(wire
+		(pts
+			(xy 88.9 72.39) (xy 97.79 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "162721cc-8cd6-416a-a432-9f2df35eb945")
+	)
+	(wire
+		(pts
+			(xy 97.79 88.9) (xy 97.79 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1248,7 +2598,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 90.17) (xy 106.68 88.9)
+			(xy 165.1 101.6) (xy 165.1 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1258,7 +2608,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 86.36) (xy 54.61 86.36)
+			(xy 97.79 97.79) (xy 113.03 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1268,7 +2618,37 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 60.96) (xy 39.37 60.96)
+			(xy 97.79 97.79) (xy 88.9 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "210f57aa-d37e-4bdd-8d85-07b808939a77")
+	)
+	(wire
+		(pts
+			(xy 69.85 87.63) (xy 66.04 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2387c394-87bf-4a9e-8667-b2197067bed7")
+	)
+	(wire
+		(pts
+			(xy 181.61 87.63) (xy 181.61 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241bb7e8-105a-43a7-bd4d-f8c8a945d0de")
+	)
+	(wire
+		(pts
+			(xy 113.03 72.39) (xy 97.79 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1278,7 +2658,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 76.2) (xy 54.61 86.36)
+			(xy 113.03 87.63) (xy 113.03 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1288,7 +2668,37 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 71.12) (xy 81.28 71.12)
+			(xy 76.2 72.39) (xy 69.85 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a54cb43-9841-4cbc-b7b7-ad275458322c")
+	)
+	(wire
+		(pts
+			(xy 76.2 97.79) (xy 69.85 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c584d8b-14f7-4f1e-91e4-227313a0cf4b")
+	)
+	(wire
+		(pts
+			(xy 76.2 91.44) (xy 76.2 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0efcbd-5a59-473b-bb0c-96a7e2f79573")
+	)
+	(wire
+		(pts
+			(xy 128.27 82.55) (xy 139.7 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1298,7 +2708,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 71.12) (xy 81.28 72.39)
+			(xy 139.7 82.55) (xy 139.7 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1308,7 +2718,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 92.71) (xy 116.84 90.17)
+			(xy 175.26 104.14) (xy 175.26 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1318,7 +2728,27 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 107.95) (xy 116.84 107.95)
+			(xy 88.9 72.39) (xy 76.2 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d849679-202d-4485-a0c1-682ffa458766")
+	)
+	(wire
+		(pts
+			(xy 69.85 80.01) (xy 66.04 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66e03093-dd29-4c11-b909-99286b817c23")
+	)
+	(wire
+		(pts
+			(xy 181.61 119.38) (xy 175.26 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1328,7 +2758,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 71.12) (xy 106.68 71.12)
+			(xy 181.61 93.98) (xy 181.61 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c07df24-382f-4f2e-9013-ba65eecf9b1b")
+	)
+	(wire
+		(pts
+			(xy 139.7 82.55) (xy 165.1 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1338,7 +2778,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 76.2) (xy 69.85 82.55)
+			(xy 128.27 87.63) (xy 128.27 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1348,7 +2788,17 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 60.96) (xy 39.37 69.85)
+			(xy 69.85 97.79) (xy 69.85 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "865c22a9-a9a8-4d89-b8fb-bce1a1066b84")
+	)
+	(wire
+		(pts
+			(xy 97.79 72.39) (xy 97.79 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1358,7 +2808,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 90.17) (xy 106.68 90.17)
+			(xy 88.9 92.71) (xy 88.9 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e6cc6f-fb82-4202-a0a2-a4f3d95874ec")
+	)
+	(wire
+		(pts
+			(xy 175.26 101.6) (xy 165.1 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1368,17 +2828,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 76.2) (xy 123.19 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af8f0842-7288-467e-86e7-43d47c50d8ca")
-	)
-	(wire
-		(pts
-			(xy 54.61 71.12) (xy 54.61 60.96)
+			(xy 113.03 82.55) (xy 113.03 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1388,7 +2838,37 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 76.2) (xy 129.54 76.2)
+			(xy 76.2 97.79) (xy 88.9 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7df6269-333d-4cfa-b5a7-b83f7cc97f3c")
+	)
+	(wire
+		(pts
+			(xy 165.1 82.55) (xy 165.1 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d2f1b0-c764-4057-bcc0-66b05454d1a2")
+	)
+	(wire
+		(pts
+			(xy 88.9 90.17) (xy 88.9 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e13f7abd-ff71-4f9b-af85-d38f6994edf7")
+	)
+	(wire
+		(pts
+			(xy 181.61 87.63) (xy 187.96 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1398,7 +2878,27 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 90.17) (xy 123.19 107.95)
+			(xy 139.7 93.98) (xy 181.61 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea76cc12-30f4-4b4b-ae10-3ab2aafcc18b")
+	)
+	(wire
+		(pts
+			(xy 76.2 72.39) (xy 76.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb102a4-24f3-48c7-b081-7c042812513d")
+	)
+	(wire
+		(pts
+			(xy 181.61 101.6) (xy 181.61 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1408,7 +2908,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 80.01) (xy 81.28 82.55)
+			(xy 88.9 72.39) (xy 88.9 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f55b8b4c-36d9-456a-ab1f-4543d296a642")
+	)
+	(wire
+		(pts
+			(xy 139.7 91.44) (xy 139.7 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1416,9 +2926,19 @@
 		)
 		(uuid "f7d07d25-786d-40a5-be2b-340778918a8d")
 	)
+	(wire
+		(pts
+			(xy 69.85 72.39) (xy 69.85 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec611ef-fe8f-41b8-8e11-4502ab412cd2")
+	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 123.19 87.63 0)
+		(at 181.61 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1426,7 +2946,7 @@
 		(dnp no)
 		(uuid "0ec82be4-1cfc-4bad-a666-0d47c2b78fcb")
 		(property "Reference" "R2"
-			(at 125.73 82.5499 0)
+			(at 184.15 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1435,7 +2955,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 125.73 88.8999 0)
+			(at 184.15 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +2964,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 87.63 0)
+			(at 181.61 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1453,7 +2973,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 87.63 0)
+			(at 181.61 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,7 +2982,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 123.19 87.63 0)
+			(at 181.61 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,8 +3006,207 @@
 		)
 	)
 	(symbol
+		(lib_id "MS32_50006:MS32_50006")
+		(at 58.42 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ef67d8b-9747-418a-a541-22ac5daec9d5")
+		(property "Reference" "RT1"
+			(at 58.293 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MS32_50006"
+			(at 58.293 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MS32_50006:THERM_MS32_50006"
+			(at 58.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Ametherm"
+			(at 58.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "39.35mm"
+			(at 58.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 58.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 58.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MS32%2050006/Ametherm/view-part/?ref=eda"
+			(at 58.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 58.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "02/20/2012"
+			(at 58.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MS32%2050006/Ametherm/view-part/?ref=snap"
+			(at 58.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MS32 50006"
+			(at 58.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nInrush Current Limiter 50 Ohms ±25% 6 A 1.220 (31.00mm)\n"
+			(at 58.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Ametherm"
+			(at 58.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 58.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "MS32 50006"
+			(at 58.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a965a09-980e-4c65-a31b-1af5c26e5fc0")
+		)
+		(pin "1"
+			(uuid "f32c6004-5d55-430b-9087-f51d50f17a85")
+		)
+		(instances
+			(project ""
+				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/16bd232e-5ea0-49a5-b25c-6403c4d2754c"
+					(reference "RT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Management:CAP200DG")
-		(at 114.3 100.33 0)
+		(at 172.72 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1496,7 +3215,7 @@
 		(fields_autoplaced yes)
 		(uuid "11b88b6a-0938-4753-9314-b66c02fc45f6")
 		(property "Reference" "U1"
-			(at 120.65 99.0599 0)
+			(at 179.07 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,7 +3224,7 @@
 			)
 		)
 		(property "Value" "CAP200DG"
-			(at 120.65 101.5999 0)
+			(at 179.07 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1514,7 +3233,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 114.3 100.33 0)
+			(at 172.72 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1524,7 +3243,7 @@
 			)
 		)
 		(property "Datasheet" "https://ac-dc.power.com/sites/default/files/product-docs/capzero-2_family_datasheet.pdf"
-			(at 115.316 100.33 0)
+			(at 173.736 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1533,7 +3252,7 @@
 			)
 		)
 		(property "Description" "CapZero Zero Loss Automatic Capacitor Discharge IC, 1000V, 100nF-6uF, 7.5M-142kOhm, SOIC-8"
-			(at 114.3 100.33 0)
+			(at 172.72 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1575,8 +3294,308 @@
 		)
 	)
 	(symbol
+		(lib_id "0ZCA0100FF2E:0ZCA0100FF2E")
+		(at 58.42 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3993a2e1-dedf-4c55-bdf2-1b957b0671e1")
+		(property "Reference" "R4"
+			(at 58.42 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0ZCA0100FF2E"
+			(at 58.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0ZCA0100FF2E:RESC3216X125N"
+			(at 58.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bel Fuse"
+			(at 58.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nPolymeric PTC Resettable Fuse 6V 1 A Ih Surface Mount 1206 (3216 Metric), Concave\n"
+			(at 58.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206 Bel Fuse"
+			(at 58.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 58.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0ZCA0100FF2E/Bel+Fuse+Inc./view-part/?ref=snap"
+			(at 58.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "0ZCA0100FF2E"
+			(at 58.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 58.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/0ZCA0100FF2E/Bel+Fuse+Inc./view-part/?ref=eda"
+			(at 58.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "167bfa00-4ca6-4118-b748-61e898a68f1c")
+		)
+		(pin "2"
+			(uuid "1a9373b0-b847-44f8-87a8-bb8d67d834d5")
+		)
+		(instances
+			(project ""
+				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/16bd232e-5ea0-49a5-b25c-6403c4d2754c"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0ZCA0100FF2E:0ZCA0100FF2E")
+		(at 88.9 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a983847-ee90-489c-afaa-740d40e7cb1e")
+		(property "Reference" "R3"
+			(at 91.44 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0ZCA0100FF2E"
+			(at 91.44 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0ZCA0100FF2E:RESC3216X125N"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bel Fuse"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nPolymeric PTC Resettable Fuse 6V 1 A Ih Surface Mount 1206 (3216 Metric), Concave\n"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206 Bel Fuse"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0ZCA0100FF2E/Bel+Fuse+Inc./view-part/?ref=snap"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "0ZCA0100FF2E"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/0ZCA0100FF2E/Bel+Fuse+Inc./view-part/?ref=eda"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b2e89de-7e7c-4fb8-9abf-21c4fd510edf")
+		)
+		(pin "2"
+			(uuid "d96e9b2f-0f00-49bc-9e71-4a9d33ba3f73")
+		)
+		(instances
+			(project ""
+				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/16bd232e-5ea0-49a5-b25c-6403c4d2754c"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 81.28 76.2 0)
+		(at 139.7 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1585,7 +3604,7 @@
 		(fields_autoplaced yes)
 		(uuid "534a2832-b440-4f3c-a8e1-2a7cd7f48734")
 		(property "Reference" "C1"
-			(at 85.09 74.9299 0)
+			(at 143.51 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1594,7 +3613,7 @@
 			)
 		)
 		(property "Value" "47nF"
-			(at 85.09 77.4699 0)
+			(at 143.51 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,7 +3622,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.2452 80.01 0)
+			(at 140.6652 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1612,7 +3631,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 76.2 0)
+			(at 139.7 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1621,7 +3640,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 81.28 76.2 0)
+			(at 139.7 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1645,33 +3664,33 @@
 		)
 	)
 	(symbol
-		(lib_id "WE-LPCC:WE-LPCC")
-		(at 62.23 73.66 0)
+		(lib_id "WE-LF_SMD_SH:WE-LF_SMD_SH")
+		(at 195.58 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b6b1e45d-50bf-4ec1-bd33-13d8af690885")
-		(property "Reference" "L5"
-			(at 62.07 66.04 0)
+		(uuid "894d1ea4-cdfa-4a45-8a21-3e0c8a44301c")
+		(property "Reference" "L1"
+			(at 195.42 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WE-LPCC"
-			(at 62.07 68.58 0)
+		(property "Value" "WE-LF_SMD_SH"
+			(at 195.42 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "WE-LPCC:WE-LPCC_7448680140"
-			(at 62.23 73.66 0)
+		(property "Footprint" "WE-LF_SMD_SH:WE-LF_SMD_SH"
+			(at 195.58 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,7 +3700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 73.66 0)
+			(at 195.58 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,7 +3709,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 73.66 0)
+			(at 195.58 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1699,7 +3718,7 @@
 			)
 		)
 		(property "MF" "Würth Elektronik"
-			(at 62.23 73.66 0)
+			(at 195.58 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1708,8 +3727,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\nCHOKE, COMMON MODE, 230UH, 16A, RAD; Inductance:230µH; Rated Current:16A; Product Range:WE-LPCC Series; SVHC:No SVHC (15-Jan-2019)\n"
-			(at 62.23 73.66 0)
+		(property "Description_1" "\nCMC 6.8MH 1.4A 2LN SMD\n"
+			(at 195.58 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,118 +3737,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
-			(at 62.23 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUNT" "SMT"
-			(at 62.23 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "IR" "16A"
-			(at 62.23 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "VALUE" "230uH"
-			(at 62.23 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 62.23 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "VR" "250  V (AC)"
-			(at 62.23 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/7448680140/Wurth+Elektronik/view-part/?ref=snap"
-			(at 62.23 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DATASHEET-URL" "https://katalog.we-online.com/pbs/datasheet/7448680140.pdf"
-			(at 62.23 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "7448680140"
-			(at 62.23 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "RDC" "3.6mOhm"
-			(at 62.23 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PART-NUMBER" "7448680140"
-			(at 62.23 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "VT" "1500  V (AC)"
-			(at 62.23 73.66 0)
+		(property "Package" "Horizontal-4 Wurth Electronics"
+			(at 195.58 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1839,7 +3748,462 @@
 			)
 		)
 		(property "Price" "None"
-			(at 62.23 73.66 0)
+			(at 195.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/7446631007/Wurth+Elektronik/view-part/?ref=snap"
+			(at 195.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "7446631007"
+			(at 195.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 195.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/7446631007/Wurth+Elektronik/view-part/?ref=eda"
+			(at 195.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e20dd627-e6f8-42fb-8d39-4e0c82146e57")
+		)
+		(pin "3"
+			(uuid "c2f7f667-5639-405f-8ea9-a26bf8498300")
+		)
+		(pin "2"
+			(uuid "27b08d15-cef8-49b1-acd2-93d56e75e234")
+		)
+		(pin "4"
+			(uuid "12e54316-7f0f-403a-8857-197357013158")
+		)
+		(instances
+			(project ""
+				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/16bd232e-5ea0-49a5-b25c-6403c4d2754c"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B88069X2701S102:B88069X2701S102")
+		(at 76.2 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98b40c4f-f335-41f7-85ac-9ceb5d90fccc")
+		(property "Reference" "RV1"
+			(at 81.28 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B88069X2701S102"
+			(at 81.026 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "B88069X2701S102:RESAD1540W100L790D820"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "EPCOS"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "8.2 mm"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/B88069X2701S102/EPCOS/view-part/?ref=eda"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "7/28/2022"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/B88069X2701S102/EPCOS/view-part/?ref=snap"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "B88069X2701S102"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nGDT 2 Electrode Surge Arrester\n"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TDK"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6f9a33a-bf02-492c-9b05-33bda6a47a3b")
+		)
+		(pin "1"
+			(uuid "e7fcd62a-7632-4866-a050-7236144501e5")
+		)
+		(instances
+			(project ""
+				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/16bd232e-5ea0-49a5-b25c-6403c4d2754c"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WE-LPCC:WE-LPCC")
+		(at 120.65 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6b1e45d-50bf-4ec1-bd33-13d8af690885")
+		(property "Reference" "L5"
+			(at 120.49 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WE-LPCC"
+			(at 120.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WE-LPCC:WE-LPCC_7448680140"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nCHOKE, COMMON MODE, 230UH, 16A, RAD; Inductance:230µH; Rated Current:16A; Product Range:WE-LPCC Series; SVHC:No SVHC (15-Jan-2019)\n"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" "SMT"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "IR" "16A"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VALUE" "230uH"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VR" "250  V (AC)"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/7448680140/Wurth+Elektronik/view-part/?ref=snap"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" "https://katalog.we-online.com/pbs/datasheet/7448680140.pdf"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "7448680140"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RDC" "3.6mOhm"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" "7448680140"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VT" "1500  V (AC)"
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 120.65 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,7 +4213,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/7448680140/Wurth+Elektronik/view-part/?ref=eda"
-			(at 62.23 73.66 0)
+			(at 120.65 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1881,7 +4245,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 106.68 86.36 0)
+		(at 165.1 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1890,7 +4254,7 @@
 		(fields_autoplaced yes)
 		(uuid "e10a5809-3c47-4984-9abe-6c224d31aca5")
 		(property "Reference" "R1"
-			(at 109.22 85.0899 0)
+			(at 167.64 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,7 +4263,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 109.22 87.6299 0)
+			(at 167.64 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +4272,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 86.36 0)
+			(at 165.1 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,7 +4281,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 86.36 0)
+			(at 165.1 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,7 +4290,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 106.68 86.36 0)
+			(at 165.1 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,16 +4315,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 39.37 73.66 0)
+		(at 97.79 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f2248313-1aa6-49f5-a8bc-0b57193e16d4")
 		(property "Reference" "C2"
-			(at 43.18 72.3899 0)
+			(at 101.6 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1969,7 +4332,7 @@
 			)
 		)
 		(property "Value" "330nF"
-			(at 43.18 74.9299 0)
+			(at 101.6 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,7 +4341,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.3352 77.47 0)
+			(at 98.7552 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,7 +4350,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 73.66 0)
+			(at 97.79 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1996,7 +4359,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 39.37 73.66 0)
+			(at 97.79 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
