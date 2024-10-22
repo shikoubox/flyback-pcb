@@ -11,6 +11,8 @@
 *.kicad_prl
 *.lck
 *.sch-bak
+*.lck
+flyback-pcb/#auto_saved_files#
 *~
 _autosave-*
 *.tmp
