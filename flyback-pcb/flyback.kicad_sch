@@ -973,7 +973,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 76.2) (xy 69.85 76.2)
+			(xy 60.96 77.47) (xy 69.85 77.47)
 		)
 		(stroke
 			(width 0)
@@ -993,6 +993,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 77.47) (xy 39.37 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1849725c-34e7-4c7e-bf07-6b5b659a148b")
+	)
+	(wire
+		(pts
 			(xy 106.68 90.17) (xy 106.68 88.9)
 		)
 		(stroke
@@ -1000,6 +1010,16 @@
 			(type default)
 		)
 		(uuid "19250577-48c9-40e2-bc12-8c3a04af7e5b")
+	)
+	(wire
+		(pts
+			(xy 39.37 86.36) (xy 53.34 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2020ac33-e1c0-4ab5-951e-7202ea68d14f")
 	)
 	(wire
 		(pts
@@ -1013,13 +1033,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 68.58) (xy 81.28 68.58)
+			(xy 53.34 60.96) (xy 39.37 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2800542f-d1f4-4148-92a4-082780120bcd")
+		(uuid "264aa23d-1e3b-40b8-9cfc-004679f14147")
 	)
 	(wire
 		(pts
@@ -1040,6 +1060,16 @@
 			(type default)
 		)
 		(uuid "2e33b3ea-79c9-45ac-b69d-13ef1f483f63")
+	)
+	(wire
+		(pts
+			(xy 53.34 77.47) (xy 53.34 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ff7c96-b566-4468-93be-80fad1de2868")
 	)
 	(wire
 		(pts
@@ -1093,7 +1123,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 76.2) (xy 69.85 82.55)
+			(xy 69.85 77.47) (xy 69.85 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1103,13 +1133,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 71.12) (xy 69.85 68.58)
+			(xy 39.37 60.96) (xy 39.37 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c4a1111-7e43-45e3-b87f-f263a7ba789b")
+		(uuid "8f4b2b69-9a88-46bb-8a58-3c39b438f27f")
 	)
 	(wire
 		(pts
@@ -1123,7 +1153,27 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 71.12) (xy 69.85 71.12)
+			(xy 123.19 85.09) (xy 123.19 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af8f0842-7288-467e-86e7-43d47c50d8ca")
+	)
+	(wire
+		(pts
+			(xy 53.34 68.58) (xy 53.34 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c929ae-dbf9-4569-9c8a-fdc242cc581c")
+	)
+	(wire
+		(pts
+			(xy 60.96 68.58) (xy 81.28 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1153,7 +1203,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 87.63) (xy 123.19 107.95)
+			(xy 123.19 90.17) (xy 123.19 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1183,7 +1233,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 123.19 85.09 0)
+		(at 123.19 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1191,7 +1241,7 @@
 		(dnp no)
 		(uuid "0ec82be4-1cfc-4bad-a666-0d47c2b78fcb")
 		(property "Reference" "R2"
-			(at 125.73 80.0099 0)
+			(at 125.73 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1200,7 +1250,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 125.73 86.3599 0)
+			(at 125.73 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1209,7 +1259,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 85.09 0)
+			(at 123.19 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1218,7 +1268,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 85.09 0)
+			(at 123.19 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1227,7 +1277,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 123.19 85.09 0)
+			(at 123.19 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,7 +1408,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47nF"
 			(at 85.09 77.4699 0)
 			(effects
 				(font
@@ -1545,8 +1595,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Management:CAP200DG")
+		(at 205.74 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bedb4fa9-fd6d-4274-992f-d091cd6a27f8")
+		(property "Reference" "U2"
+			(at 212.09 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAP200DG"
+			(at 212.09 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 205.74 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ac-dc.power.com/sites/default/files/product-docs/capzero-2_family_datasheet.pdf"
+			(at 206.756 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CapZero Zero Loss Automatic Capacitor Discharge IC, 1000V, 100nF-6uF, 7.5M-142kOhm, SOIC-8"
+			(at 205.74 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "4d07be76-e352-4e2f-a4a5-5ae79001b3f8")
+		)
+		(pin "5"
+			(uuid "3805123b-d5eb-4d54-ad1f-c0730fce6551")
+		)
+		(pin "2"
+			(uuid "f2221a02-c42a-4df0-b6e9-6e90fe258901")
+		)
+		(pin "4"
+			(uuid "ad732721-f177-4eb1-83b7-abadbca3156c")
+		)
+		(pin "3"
+			(uuid "0a20f2e7-54f0-4a16-b3c8-6c8315ee3095")
+		)
+		(pin "6"
+			(uuid "55bf8408-0557-4ba2-adf1-a727c0f9f182")
+		)
+		(pin "7"
+			(uuid "b961cd7f-5ac3-4e2f-a38d-21b6149fd5d1")
+		)
+		(pin "1"
+			(uuid "9cfd3823-8388-43e3-9c4e-837a0097c80e")
+		)
+		(instances
+			(project "flyback-pcb"
+				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/16bd232e-5ea0-49a5-b25c-6403c4d2754c"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
-		(at 57.15 71.12 270)
+		(at 57.15 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1555,6 +1694,14 @@
 		(fields_autoplaced yes)
 		(uuid "d5c3bafa-5c82-4bc7-9987-dfed41e0dab6")
 		(property "Reference" "L3"
+			(at 57.15 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "230µH"
 			(at 57.15 66.04 90)
 			(effects
 				(font
@@ -1562,16 +1709,8 @@
 				)
 			)
 		)
-		(property "Value" "L"
-			(at 57.15 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Footprint" ""
-			(at 57.15 71.12 0)
+			(at 57.15 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,7 +1719,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 71.12 0)
+			(at 57.15 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,7 +1728,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 57.15 71.12 0)
+			(at 57.15 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1683,32 +1822,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 55.88 76.2 90)
+		(lib_id "Device:C")
+		(at 39.37 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f898ff04-d76f-4067-9941-77eb7f5afc87")
-		(property "Reference" "L4"
-			(at 55.88 66.04 90)
+		(fields_autoplaced yes)
+		(uuid "f2248313-1aa6-49f5-a8bc-0b57193e16d4")
+		(property "Reference" "C2"
+			(at 43.18 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "L"
-			(at 55.88 68.58 90)
+		(property "Value" "330nF"
+			(at 43.18 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 76.2 0)
+			(at 40.3352 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1717,7 +1859,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 76.2 0)
+			(at 39.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 39.37 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01feed5b-3d39-49e4-913b-c399b8112037")
+		)
+		(pin "2"
+			(uuid "05cd86ab-3e08-4a2c-900e-793ceb84f219")
+		)
+		(instances
+			(project "flyback-pcb"
+				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/16bd232e-5ea0-49a5-b25c-6403c4d2754c"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 57.15 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f898ff04-d76f-4067-9941-77eb7f5afc87")
+		(property "Reference" "L4"
+			(at 57.15 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "230µH"
+			(at 57.15 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1726,7 +1935,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 55.88 76.2 0)
+			(at 57.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
