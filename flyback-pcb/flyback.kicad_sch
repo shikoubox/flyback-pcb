@@ -5110,10 +5110,10 @@
 		(uuid "3fc89e61-841c-4588-9a86-233a8e708c8c")
 	)
 	(junction
-		(at 111.76 106.68)
+		(at 111.76 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "451c273d-d334-420f-b12f-0f0c96446847")
+		(uuid "43558f24-531c-4f80-9f51-f9ccf13b744c")
 	)
 	(junction
 		(at 193.04 92.71)
@@ -5657,16 +5657,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 106.68) (xy 115.57 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29ba7bae-6988-46cb-b6f3-848c4c5ab05d")
-	)
-	(wire
-		(pts
 			(xy 118.11 199.39) (xy 118.11 153.67)
 		)
 		(stroke
@@ -5897,6 +5887,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 93.98) (xy 111.76 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509ff3f2-4687-43f3-8320-d51d60b30de4")
+	)
+	(wire
+		(pts
 			(xy 115.57 71.12) (xy 130.81 71.12)
 		)
 		(stroke
@@ -6014,16 +6014,6 @@
 			(type default)
 		)
 		(uuid "64796643-7625-4339-b4a3-8677e1ac1d21")
-	)
-	(wire
-		(pts
-			(xy 115.57 106.68) (xy 115.57 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64b57d3a-6a76-43e0-83a2-bb41efd8b6e3")
 	)
 	(wire
 		(pts
@@ -6287,7 +6277,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 106.68) (xy 111.76 93.98)
+			(xy 111.76 93.98) (xy 111.76 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6607,7 +6597,17 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 87.63) (xy 115.57 71.12)
+			(xy 115.57 86.36) (xy 115.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3176d88-f8f5-4359-93ab-78d2b9a5fb00")
+	)
+	(wire
+		(pts
+			(xy 115.57 78.74) (xy 115.57 71.12)
 		)
 		(stroke
 			(width 0)
@@ -7051,6 +7051,18 @@
 		)
 		(uuid "3adc78af-97e3-464e-b4f9-af8c048fa7a5")
 	)
+	(text "ISENSE (IS) Pin (Pin 1)\nConnection to the power supply return output terminals. An external\ncurrent sense resistor should be connected between this and the\nSECONDARY GROUND pin.\n\nSECONDARY GROUND (GND) (Pin 2)\nGround reference for the secondary IC. Note this is not the power\nsupply output ground due to the presence of the sense resistor\nbetween this and the ISENSE pin.\n\nCC2 Pin (Pin 3)\nUSB Type-C configuration channel.\n\nCC1 Pin (Pin 4)\nUSB Type-C configuration channel.\n\nSECONDARY BYPASS (BPS) Pin (Pin 5)\nIt is the connection point for an external bypass capacitor for the\nsecondary IC supply.\n\nTEMPERATURE SENSE (NTC) Pin (Pin 6):\nThis pin has an internal current source. With NTC resistor connected\non this pin, it can be used to monitor external temperature.\n\nVCC SUPPLY (uVCC) Pin (Pin 7)\nThis is a supply pin for the internal controller. An external 2.2 μF\ncapacitor is required between this pin and the GND pin.\n\nVBUS Series Switch Drive and Load Discharge (VB/D) Pin (Pin 8)\nVBUS enable and driver for NMOS gate for VOUT to VBUS series pass\nFET(s). This pin is used to discharge output load voltage(VBUS).\n\nSYNCHRONOUS RECTIFIER DRIVE (SR) Pin (Pin 9)\nGate driver output and connection to external SR FET gate terminal.\n\nOUTPUT VOLTAGE (VOUT) Pin (Pin 10)\nConnected directly to the output voltage providing current for the\nsecondary IC and sense for output voltage regulation. This pin\nalso has an active/programmable pull-down current source.\n\nFORWARD (FWD) Pin (Pin 11)\nThe connection point to the switching node of the transformer output\nwinding providing information on the primary switch timing plus\nproviding power for the secondary IC when VOUT is below a\nthreshold value.\n\nNC Pin (Pin 12)\nLeave open. Should not be connected to any other pins.\n\nUNDER/OVER INPUT VOLTAGE (V) Pin (Pin 13)\nA high-voltage pin connected to the AC or DC side of the input bridge\nfor detecting under and overvoltage conditions at the power supply\ninput. When connected to the AC side of the bridge, a high-voltage\nswitch is opened when not sensing to reduce power consumption.\nThis pin should be tied to GND to disable UV/OV protection.\n\nPRIMARY BYPASS (BPP) Pin (Pin 14)\nIt is the connection point for an external bypass capacitor for the\nprimary IC supply. This is also the ILIM selection pin for choosing\nstandard ILIM or ILIM+1.\n\nNC Pin (Pin 15)\nLeave open or connect to SOURCE pin or BPP pin.\n\nSOURCE (S) Pin (Pin 16-19)\nThese pins are the power switch source connection. It is also ground\nreference for primary BYPASS pin.\n\nDRAIN (D) Pin (Pin 24)\nThis pin is the power switch drain connection."
+		(exclude_from_sim no)
+		(at 422.656 234.442 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46e1615a-e3a2-4286-b3c3-e1699a3b9a5c")
+	)
 	(text "USB PD IC"
 		(exclude_from_sim no)
 		(at 119.634 218.44 0)
@@ -7070,6 +7082,18 @@
 			)
 		)
 		(uuid "77f97fb1-7a8b-476a-a209-26cc7f97ee33")
+	)
+	(text "PIN: 1: VBOT - High Voltage connected to drain\nPIN: 2: Do not connect\nPIN: 3: Signal Ground for digital controller, needs an external connections to S\nPIN: 4: External connection fro bypass cap for IC-Supply. This needs to be connected to BPP InnoSwitch\nPIN: 5: V PIN connector to InnoSwitch. This is used for bulk cap voltage, startup and fault info for InnoSwitch\nPIN: 6: Signal Ground for digital controller, needs an external connections to S\nPIN: 7: Do not connect\nPIN: 8: High voltage info PIN for InnoSwitch\nPIN: 9-10:Connection to source PIN\nPIN: 11: Power switch drain\nPIN: 16: Power switch source\n\nVBOT Pin (Pin 1)\nA high-voltage pin connected to the drain of the MinE-CAP IC. A\nhigh-voltage switch is closed when the MinE-CAP IC is operated in\ntrickle-charge mode. A 1 MW resistor is tied between this pin and the\nnegative end of the LV capacitor (C5).\n\nSIGNAL GROUND (SG) Pins (Pins 3, 6)\nThis pin is signal ground for the digital controller. Must be externally\nconnected to S pin.\n\nBYPASS (BP) Pin (Pin 4)\nIt is the connection point for an external bypass capacitor for the IC\nsupply. Must be supplied by the BPP pin of the InnoSwitch IC or\nother external supply.\n\nLINE (L) Pin (Pin 5)\nThis pin connects to the V pin of the InnoSwitch IC and is used to\nprovide bulk capacitor voltage, start-up and fault information to the\nInnoSwitch IC.\n\nNO CONNECT (NC) Pin (Pin 7)\nLeave open. Should not be connected to any other pins or traces.\n\nVTOP Pin (Pin 8)\nA high-voltage pin connected to the DC side of the input bridge\nrectifier for monitoring bulk voltage information. A high-voltage\nswitch is opened when the InnoSwitch IC is not sensing line\ninformation to reduce power consumption. RTOP resistor connected\nbetween positive end of the LV capacitor and VTOP pin must be\nselected as per design line OV/UV requirements. In systems using\nInnoSwitch, this RTOP resistor corresponds to the resistor used on V pin\nof the InnoSwitch.\n\nGND Pin (Pin 9 - 10)\nThese pins must be connected to the SOURCE pin.\n\nSOURCE (S) Pin (Pin 11)\nThis pin is the power switch source connection.\n\nDRAIN (D) Pin (Pin 16)\nThis pin is the power switch drain connection.\n"
+		(exclude_from_sim no)
+		(at 421.386 88.138 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8208be14-e1c3-450b-84db-0248679f86f3")
 	)
 	(text "LDO"
 		(exclude_from_sim no)
@@ -7100,6 +7124,26 @@
 			)
 		)
 		(uuid "a4efa400-56db-4acc-8124-65bfdb706283")
+	)
+	(text "U2"
+		(exclude_from_sim no)
+		(at 428.244 155.194 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+			)
+		)
+		(uuid "bbdc6fe5-0605-448b-9fc2-71f1ccdce362")
+	)
+	(text "U1"
+		(exclude_from_sim no)
+		(at 429.26 24.13 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+			)
+		)
+		(uuid "e75089bc-f995-4adc-b59c-3d7d49d57678")
 	)
 	(global_label "VBUS_IN"
 		(shape input)
@@ -7703,7 +7747,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 115.57 91.44 0)
+		(at 115.57 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7711,7 +7755,7 @@
 		(dnp no)
 		(uuid "2cc8c46d-78e6-4033-9159-85026690aeff")
 		(property "Reference" "C5"
-			(at 106.172 90.424 0)
+			(at 106.172 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7720,7 +7764,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 106.172 92.71 0)
+			(at 106.172 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7729,7 +7773,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 116.5352 95.25 0)
+			(at 116.5352 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7738,7 +7782,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 91.44 0)
+			(at 115.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7747,7 +7791,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 115.57 91.44 0)
+			(at 115.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
