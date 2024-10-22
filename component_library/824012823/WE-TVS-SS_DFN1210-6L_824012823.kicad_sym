@@ -1,0 +1,361 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "WE-TVS-SS_DFN1210-6L_824012823" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at 0.0 7.62 0.0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "WE-TVS-SS_DFN1210-6L_824012823" (id 1) (at 0.0 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Footprint" "WE-TVS-SS_DFN1210-6L_824012823:WE-TVS_DFN1210-6L" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "C-CH" "0.18pF" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Würth Elektronik" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n13V (Typ) Clamp 3A (8/20µs) Ipp Tvs Diode Surface Mount DFN1210-6\n" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "XFDFN-6 Wurth Electronics Inc." (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "IPEAK" "3A" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MOUNT" "SMT" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "VALUE" "3.3Vdc" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "CHANNELS" "2" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "VBR" "4.5V" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/824012823/Wurth+Elektronik/view-part/?ref=snap" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/824012823.pdf" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "824012823" (id 16) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PART-NUMBER" "824012823" (id 17) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 18) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/824012823/Wurth+Elektronik/view-part/?ref=eda" (id 19) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "WE-TVS-SS_DFN1210-6L_824012823_0_0"
+      (polyline
+        (pts (xy 3.81 -2.54) (xy 5.08 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 -2.54) (xy 0.0 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -2.54) (xy -2.54 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.81 -2.54) (xy -5.08 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.937 -3.175) (xy 3.937 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.413 -3.175) (xy -2.413 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.937 2.54) (xy 5.08 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 2.54) (xy 0.0 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 2.54) (xy -2.413 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.81 2.54) (xy -5.08 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.937 1.905) (xy 3.937 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.937 2.54) (xy 3.937 3.175)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.413 1.905) (xy -2.413 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.413 2.54) (xy -2.413 3.175)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -5.08) (xy 5.08 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.08 -5.08) (xy -5.08 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.08 -5.08) (xy 5.08 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 2.54) (xy 0.0 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 5.08) (xy -7.62 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -2.54) (xy 0.0 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 0.0) (xy -7.62 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.08 -5.08) (xy -7.62 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.635 -5.715) (xy 0.635 -4.445)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.635 -4.445) (xy 1.143 -3.937)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.635 -5.715) (xy 0.127 -6.223)) (stroke (width 0.254))
+      )
+      (text "I/O1" (at -10.16 3.81 0)
+        (effects (font (size 0.8128 0.8128)) (justify left))
+      )
+      (text "I/O2" (at -10.16 -1.27 0)
+        (effects (font (size 0.8128 0.8128)) (justify left))
+      )
+      (text "GND" (at -10.16 -6.35 0)
+        (effects (font (size 0.8128 0.8128)) (justify left))
+      )
+      (text "NC" (at 10.16 3.81 0)
+        (effects (font (size 0.8128 0.8128)) (justify left))
+      )
+      (text "NC" (at 10.16 -1.27 0)
+        (effects (font (size 0.8128 0.8128)) (justify left))
+      )
+      (text "NC" (at 10.16 -6.35 0)
+        (effects (font (size 0.8128 0.8128)) (justify left))
+      )
+      (polyline
+        (pts
+          (xy 2.667 -3.175)
+          (xy 3.937 -2.54)
+          (xy 2.667 -1.905)
+          (xy 2.667 -3.175)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 2.667 1.905)
+          (xy 3.937 2.54)
+          (xy 2.667 3.175)
+          (xy 2.667 1.905)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -3.683 -3.175)
+          (xy -2.413 -2.54)
+          (xy -3.683 -1.905)
+          (xy -3.683 -3.175)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -3.683 1.905)
+          (xy -2.413 2.54)
+          (xy -3.683 3.175)
+          (xy -3.683 1.905)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy -0.635 -5.715)
+          (xy 0.635 -5.08)
+          (xy -0.635 -4.445)
+          (xy -0.635 -5.715)
+        )
+        (stroke (width 0.254)) (fill (type outline))
+      )
+      (circle (center -5.08 -2.54) (radius 0.381)
+        (stroke (width 0.0)) (fill (type none))
+      )
+      (circle (center 5.08 -5.08) (radius 0.381)
+        (stroke (width 0.0)) (fill (type none))
+      )
+      (circle (center 0.0 2.54) (radius 0.381)
+        (stroke (width 0.0)) (fill (type none))
+      )
+      (circle (center 0.0 -2.54) (radius 0.381)
+        (stroke (width 0.0)) (fill (type none))
+      )
+      (circle (center 5.08 -2.54) (radius 0.381)
+        (stroke (width 0.0)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 6.985 -7.62) (xy 6.985 -6.25929)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 6.985 -5.715) (xy 6.985 -4.35429)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 6.985 -3.81) (xy 6.985 -2.44929)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 6.985 -1.905) (xy 6.985 -0.544286)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 6.985 0.0) (xy 6.985 1.36071)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 6.985 1.905) (xy 6.985 3.26571)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 6.985 3.81) (xy 6.985 5.17071)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 6.985 5.715) (xy 6.985 6.35)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 6.985 6.35) (xy 5.62429 6.35)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 6.35) (xy 3.71929 6.35)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.175 6.35) (xy 1.81429 6.35)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 6.35) (xy -0.0907143 6.35)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.635 6.35) (xy -1.99571 6.35)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 6.35) (xy -3.90071 6.35)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -4.445 6.35) (xy -5.80571 6.35)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -6.35 6.35) (xy -6.985 6.35)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -6.985 6.35) (xy -6.985 4.98929)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -6.985 4.445) (xy -6.985 3.08429)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -6.985 2.54) (xy -6.985 1.17929)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -6.985 0.635) (xy -6.985 -0.725714)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -6.985 -1.27) (xy -6.985 -2.63071)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -6.985 -3.175) (xy -6.985 -4.53571)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -6.985 -5.08) (xy -6.985 -6.44071)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -6.985 -6.985) (xy -6.985 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -6.985 -7.62) (xy -5.62429 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 -7.62) (xy -3.71929 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.175 -7.62) (xy -1.81429 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -7.62) (xy 0.0907143 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.635 -7.62) (xy 1.99571 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -7.62) (xy 3.90071 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 4.445 -7.62) (xy 5.80571 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 6.35 -7.62) (xy 6.985 -7.62)) (stroke (width 0.254))
+      )
+      (pin passive line (at -10.16 5.08 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 -5.08 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 -5.08 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 5.08 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

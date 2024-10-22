@@ -24,7 +24,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.5mm_EP0.7x1.6mm"
+		(property "Footprint" "emc_flyback_pcb:WE-TVS_DFN1210-6L"
 			(at 0 8.89 0)
 			(effects
 				(font
@@ -560,13 +560,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMF"
+		(property "Footprint" "emc_flyback_pcb:WE-TVS_DFN1610-2L"
 			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/ProductDetail/Wurth-Elektronik/824045810?qs=1Kr7Jg1SGW86CbQtiVw09Q%3D%3D"
@@ -1156,7 +1155,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "emc_flyback_pcb:H-PSOF8L-11.68X9.80_1"
 			(at 0 0 90)
 			(effects
 				(font
@@ -2610,7 +2609,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "INN3865CH801TL:IC_INN3865CH801TL"
+		(property "Footprint" "emc_flyback_pcb:IC_INN3865CH801TL"
 			(at 8.382 14.224 0)
 			(effects
 				(font
@@ -3722,7 +3721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MINSOP-16A_PWI"
+		(property "Footprint" "emc_flyback_pcb:MINSOP-16A_PWI"
 			(at 21.082 3.556 0)
 			(effects
 				(font
@@ -3749,14 +3748,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "MIN1072M-TL"
@@ -4059,7 +4050,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMBTA06"
+		(property "Value" "MMBTA06LT1G"
 			(at 5.08 0 0)
 			(effects
 				(font
@@ -4246,7 +4237,7 @@
 			)
 		)
 	)
-	(symbol "MMSZ5263"
+	(symbol "MMSZ5263BT1G"
 		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
@@ -4261,7 +4252,7 @@
 				)
 			)
 		)
-		(property "Value" "MMSZ5263"
+		(property "Value" "MMSZ5263BT1G"
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -4314,7 +4305,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "MMSZ5263_0_1"
+		(symbol "MMSZ5263BT1G_0_1"
 			(polyline
 				(pts
 					(xy -1.27 0) (xy 1.27 0)
@@ -4364,7 +4355,7 @@
 				)
 			)
 		)
-		(symbol "MMSZ5263_0_2"
+		(symbol "MMSZ5263BT1G_0_2"
 			(polyline
 				(pts
 					(xy -2.54 -2.54) (xy 2.54 2.54)
@@ -4414,7 +4405,7 @@
 				)
 			)
 		)
-		(symbol "MMSZ5263_1_1"
+		(symbol "MMSZ5263BT1G_1_1"
 			(pin passive line
 				(at 3.81 0 180)
 				(length 2.54)
@@ -4452,7 +4443,7 @@
 				)
 			)
 		)
-		(symbol "MMSZ5263_1_2"
+		(symbol "MMSZ5263BT1G_1_2"
 			(pin passive line
 				(at 2.54 2.54 180)
 				(length 0)
@@ -4516,7 +4507,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "MUSBRM1C130:AMPHENOL_MUSBRM1C130"
+		(property "Footprint" "emc_flyback_pcb:AMPHENOL_MUSBRM1C130"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5279,7 +5270,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_4ms_Resistor:R_0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5438,7 +5429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SMA"
+		(property "Footprint" "PCM_4ms_Diode:D_DO-214AC_SMA"
 			(at 1.524 -9.398 0)
 			(effects
 				(font
