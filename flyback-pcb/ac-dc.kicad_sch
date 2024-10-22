@@ -5,46 +5,45 @@
 	(uuid "b7dc9301-bcb4-4d2c-a24c-4685cf76d6ee")
 	(paper "A4")
 	(lib_symbols
-		(symbol "0ZCA0100FF2E:0ZCA0100FF2E"
+		(symbol "2024-10-22_12-55-56:TT10M-13"
 			(pin_names
-				(offset 1.016)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at -3.81 1.4986 0)
+			(property "Reference" "BR"
+				(at 25.4 10.16 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "0ZCA0100FF2E"
-				(at -3.81 -3.302 0)
+			(property "Value" "TT10M-13"
+				(at 25.4 5.08 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "0ZCA0100FF2E:RESC3216X125N"
+			(property "Footprint" "TT10M_DIO"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "TT10M-13"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
@@ -58,90 +57,36 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Bel Fuse"
+			(property "ki_locked" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-					(hide yes)
 				)
 			)
-			(property "Description_1" "\nPolymeric PTC Resettable Fuse 6V 1 A Ih Surface Mount 1206 (3216 Metric), Concave\n"
+			(property "ki_keywords" "TT10M-13"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Package" "1206 Bel Fuse"
+			(property "ki_fp_filters" "TT10M_DIO TT10M_DIO-M TT10M_DIO-L"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/0ZCA0100FF2E/Bel+Fuse+Inc./view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "0ZCA0100FF2E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/0ZCA0100FF2E/Bel+Fuse+Inc./view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "0ZCA0100FF2E_0_0"
+			(symbol "TT10M-13_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
+						(xy 2.54 0) (xy 6.35 3.81)
 					)
 					(stroke
 						(width 0.2032)
@@ -153,7 +98,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
+						(xy 2.54 0) (xy 6.4885 -3.9485)
 					)
 					(stroke
 						(width 0.2032)
@@ -165,7 +110,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
+						(xy 5.3749 -5.529) (xy 8.518 -5.978)
 					)
 					(stroke
 						(width 0.2032)
@@ -177,7 +122,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
+						(xy 5.3749 5.529) (xy 8.069 2.8349)
 					)
 					(stroke
 						(width 0.2032)
@@ -189,7 +134,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
+						(xy 5.8239 3.2839) (xy 6.4885 3.9485)
 					)
 					(stroke
 						(width 0.2032)
@@ -201,7 +146,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
+						(xy 6.273 -3.733) (xy 6.722 -4.182)
 					)
 					(stroke
 						(width 0.2032)
@@ -213,7 +158,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
+						(xy 6.273 3.733) (xy 6.722 4.182)
 					)
 					(stroke
 						(width 0.2032)
@@ -225,7 +170,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
+						(xy 7.343 -7.4963) (xy 10.037 -4.8022)
 					)
 					(stroke
 						(width 0.2032)
@@ -237,7 +182,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
+						(xy 8.069 -2.8349) (xy 5.3749 -5.529)
 					)
 					(stroke
 						(width 0.2032)
@@ -247,38 +192,527 @@
 						(type none)
 					)
 				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
+				(polyline
+					(pts
+						(xy 8.069 2.8349) (xy 8.518 5.978)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.518 -5.978) (xy 8.069 -2.8349)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.518 5.978) (xy 5.3749 5.529)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.6344 6.1) (xy 12.7 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.0186 4.7774) (xy 7.2502 7.5765)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -10.16) (xy 8.6344 -6.1113)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -10.16) (xy 16.6485 -6.2115)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 10.16) (xy 16.6485 6.2115)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.5349 -4.631) (xy 18.229 -7.3251)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.5349 4.631) (xy 18.678 4.182)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.433 -6.427) (xy 16.882 -5.978)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.433 6.427) (xy 16.882 5.978)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.5545 2.7473) (xy 20.1691 5.3926)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 18.229 -7.3251) (xy 18.678 -4.182)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 18.229 7.3251) (xy 15.5349 4.631)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 18.678 -4.182) (xy 15.5349 -4.631)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 18.678 4.182) (xy 18.229 7.3251)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.1963 -5.357) (xy 17.5022 -2.663)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 0) (xy 18.6926 4.1314)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 0) (xy 18.7364 -4.0964)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 0 180)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 12.7 270)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -12.7 90)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "2024-10-22_14-27-07:SL08_20002"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 6.985 8.255 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SL08 20002"
+				(at 6.985 4.445 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SL08 20002_AMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SL08 20002"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SL08 20002"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SL08 20002_AMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SL08_20002_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -1.27) (xy 7.62 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.27) (xy 17.78 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 1.27) (xy 17.78 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 -2.54) (xy 17.78 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 1.27) (xy 17.78 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 0) (xy 17.78 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 27.94 0 180)
+					(length 7.62)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -703,6 +1137,152 @@
 				)
 			)
 		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers hide)
 			(pin_names
@@ -836,43 +1416,34 @@
 				)
 			)
 		)
-		(symbol "MS32_50006:MS32_50006"
+		(symbol "Device:R_Variable_US"
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "RT"
-				(at -5.08 2.54 0)
+			(property "Reference" "R"
+				(at 2.54 -2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Value" "MS32_50006"
-				(at -5.08 -5.08 0)
+			(property "Value" "R_Variable_US"
+				(at -2.54 -1.27 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "MS32_50006:THERM_MS32_50006"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Footprint" ""
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -880,7 +1451,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -889,143 +1460,40 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Ametherm"
+			(property "Description" "Variable resistor, US symbol"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "39.35mm"
+			(property "ki_keywords" "R res resistor variable potentiometer rheostat"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Package" "None"
+			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/MS32%2050006/Ametherm/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "IPC 7351B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "02/20/2012"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MS32%2050006/Ametherm/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "MS32 50006"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\nInrush Current Limiter 50 Ohms ±25% 6 A 1.220 (31.00mm)\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Ametherm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SNAPEDA_PN" "MS32 50006"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "MS32_50006_0_0"
+			(symbol "R_Variable_US_0_1"
 				(polyline
 					(pts
-						(xy -3.81 -1.27) (xy -5.08 0)
+						(xy 0 -2.286) (xy 0 -2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1034,10 +1502,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.302 -2.54) (xy -5.334 -2.54)
+						(xy 0 2.286) (xy 0 2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1046,10 +1514,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.302 -2.54) (xy 3.556 2.032)
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1058,10 +1526,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 1.27) (xy -3.81 -1.27)
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1070,10 +1538,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -2.54 1.27)
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1082,96 +1550,50 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy 0 1.27)
+						(xy 2.286 1.524) (xy 2.54 2.54) (xy 1.524 2.286) (xy 2.54 2.54) (xy -2.032 -2.032)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "R_Variable_US_1_1"
 				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
+					(at 0 3.81 270)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
+					(at 0 -3.81 90)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2484,16 +2906,10 @@
 		(uuid "25434bfb-ca15-44a2-b244-a5de367fe069")
 	)
 	(junction
-		(at 113.03 104.14)
+		(at 91.44 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "333cf46a-b48a-4c67-b136-0eb1d2a40a14")
-	)
-	(junction
-		(at 113.03 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "382e2d3d-257b-4f3e-84ff-e446feaae694")
+		(uuid "4040732e-c14e-4017-a4d2-9c62aafd4705")
 	)
 	(junction
 		(at 163.83 100.33)
@@ -2502,16 +2918,16 @@
 		(uuid "5952d148-b53b-4600-b9da-11c1361067f5")
 	)
 	(junction
-		(at 113.03 83.82)
+		(at 113.03 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7bd8cf80-54d9-4601-852c-abb1c6b0d03d")
+		(uuid "6fa22c74-ebd0-4c1a-bc41-2e87ee8c484c")
 	)
 	(junction
-		(at 113.03 99.06)
+		(at 113.03 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c9aa51cb-dc79-4422-876e-3699b4bd81eb")
+		(uuid "c1165e87-b42d-4d10-81e3-35b2861d0cd1")
 	)
 	(junction
 		(at 121.92 78.74)
@@ -2539,7 +2955,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 96.52) (xy 113.03 99.06)
+			(xy 113.03 96.52) (xy 113.03 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2549,33 +2965,33 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 99.06) (xy 113.03 104.14)
+			(xy 233.68 77.47) (xy 248.92 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e05cfdc-8b83-457b-aacd-9258fe8e2daa")
+		(uuid "0a67d38e-3623-4604-8962-dc7994e773db")
 	)
 	(wire
 		(pts
-			(xy 100.33 104.14) (xy 113.03 104.14)
+			(xy 113.03 78.74) (xy 113.03 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2dc60ab9-fc22-4c0d-a659-96aa75fc1b09")
+		(uuid "1fdf4624-3b0b-41bd-a769-3a2196201151")
 	)
 	(wire
 		(pts
-			(xy 113.03 78.74) (xy 113.03 83.82)
+			(xy 227.33 88.9) (xy 233.68 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "314903f1-19f5-43a8-9137-ba40f843d3ad")
+		(uuid "3030bd18-97c7-4f9e-93c1-958f54ae5b38")
 	)
 	(wire
 		(pts
@@ -2599,13 +3015,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 83.82) (xy 113.03 88.9)
+			(xy 91.44 93.98) (xy 90.17 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e5fdea4-35c9-4da9-83db-83dad1448437")
+		(uuid "43aba821-c73f-4b39-83ca-b0f9a20f503c")
 	)
 	(wire
 		(pts
@@ -2639,7 +3055,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 93.98) (xy 90.17 93.98)
+			(xy 93.98 93.98) (xy 91.44 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2719,13 +3135,33 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 78.74) (xy 93.98 78.74)
+			(xy 113.03 104.14) (xy 121.92 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a1732b3-59a6-4221-b97d-bdd4193b1ef1")
+	)
+	(wire
+		(pts
+			(xy 80.01 78.74) (xy 100.33 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7e9fb29b-1052-4385-afb3-4775e866f4de")
+	)
+	(wire
+		(pts
+			(xy 113.03 78.74) (xy 121.92 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81182dc3-ccc4-495e-b3a3-5c08b189c45d")
 	)
 	(wire
 		(pts
@@ -2749,16 +3185,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 78.74) (xy 93.98 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c37ca22-0161-4cd1-97ab-00da95c6c2bc")
-	)
-	(wire
-		(pts
 			(xy 163.83 88.9) (xy 189.23 88.9)
 		)
 		(stroke
@@ -2769,13 +3195,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 78.74) (xy 121.92 78.74)
+			(xy 233.68 88.9) (xy 233.68 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "958c5d4c-6659-48e1-bbf7-c304eabf5b08")
+		(uuid "8df67a82-1885-4366-8208-ea926165a745")
 	)
 	(wire
 		(pts
@@ -2799,6 +3225,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 93.98) (xy 233.68 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a85176-d39d-483c-b60a-7f2caeb572fd")
+	)
+	(wire
+		(pts
 			(xy 205.74 125.73) (xy 199.39 125.73)
 		)
 		(stroke
@@ -2806,6 +3242,16 @@
 			(type default)
 		)
 		(uuid "a6058660-bf8a-425f-ac0e-bf13feab1326")
+	)
+	(wire
+		(pts
+			(xy 233.68 102.87) (xy 233.68 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3424e28-1073-40fa-9627-d6abe10e89bf")
 	)
 	(wire
 		(pts
@@ -2829,7 +3275,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 104.14) (xy 113.03 104.14)
+			(xy 100.33 104.14) (xy 113.03 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2899,13 +3345,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 86.36) (xy 90.17 86.36)
+			(xy 248.92 102.87) (xy 233.68 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e9754886-e803-4ee2-ab29-1f0a30e8f381")
+		(uuid "dd19f466-48d3-4097-a79f-dff4af6707ce")
 	)
 	(wire
 		(pts
@@ -2919,361 +3365,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 78.74) (xy 100.33 78.74)
+			(xy 100.33 78.74) (xy 113.03 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f88d2b31-0dea-4e23-8853-b66503a51fc4")
-	)
-	(symbol
-		(lib_id "0ZCA0100FF2E:0ZCA0100FF2E")
-		(at 82.55 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0288db89-5b07-474d-b1e1-1e558adb984c")
-		(property "Reference" "R5"
-			(at 82.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0ZCA0100FF2E"
-			(at 82.55 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0ZCA0100FF2E:RESC3216X125N"
-			(at 82.55 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Bel Fuse"
-			(at 82.55 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nPolymeric PTC Resettable Fuse 6V 1 A Ih Surface Mount 1206 (3216 Metric), Concave\n"
-			(at 82.55 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "1206 Bel Fuse"
-			(at 82.55 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 82.55 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0ZCA0100FF2E/Bel+Fuse+Inc./view-part/?ref=snap"
-			(at 82.55 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "0ZCA0100FF2E"
-			(at 82.55 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 82.55 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/0ZCA0100FF2E/Bel+Fuse+Inc./view-part/?ref=eda"
-			(at 82.55 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b98baa2b-7be7-4e8e-9572-c3e1426de5f6")
-		)
-		(pin "2"
-			(uuid "3025334d-c019-4221-8097-92627ae8ef79")
-		)
-		(instances
-			(project "flyback-pcb"
-				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/f6f3b632-57ee-4368-8954-2ac72372b096"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MS32_50006:MS32_50006")
-		(at 82.55 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e5e1d86-51dc-4ca8-91a2-bd2eac2c2f70")
-		(property "Reference" "RT2"
-			(at 82.423 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS32_50006"
-			(at 82.423 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MS32_50006:THERM_MS32_50006"
-			(at 82.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Ametherm"
-			(at 82.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "39.35mm"
-			(at 82.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 82.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 82.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MS32%2050006/Ametherm/view-part/?ref=eda"
-			(at 82.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 82.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "02/20/2012"
-			(at 82.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MS32%2050006/Ametherm/view-part/?ref=snap"
-			(at 82.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MS32 50006"
-			(at 82.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nInrush Current Limiter 50 Ohms ±25% 6 A 1.220 (31.00mm)\n"
-			(at 82.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Ametherm"
-			(at 82.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 82.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "MS32 50006"
-			(at 82.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b159e724-8009-4024-8a19-7e0b4b506afb")
-		)
-		(pin "1"
-			(uuid "6f6ce175-a3c4-4f4a-91e1-8e5ce556f98c")
-		)
-		(instances
-			(project "flyback-pcb"
-				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/f6f3b632-57ee-4368-8954-2ac72372b096"
-					(reference "RT2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "B88069X2701S102:B88069X2701S102")
@@ -3529,6 +3627,75 @@
 			(project "flyback-pcb"
 				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/f6f3b632-57ee-4368-8954-2ac72372b096"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-10-22_14-27-07:SL08_20002")
+		(at 63.5 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28f29a17-798b-4aab-8fe9-ee1399742af8")
+		(property "Reference" "R1"
+			(at 73.152 99.822 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SL08 20002"
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SL08 20002_AMT"
+			(at 63.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SL08 20002"
+			(at 63.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87d752b4-c577-4c09-b566-bf18aa53bc04")
+		)
+		(pin "2"
+			(uuid "603ee615-8075-4210-8914-fd686976bc56")
+		)
+		(instances
+			(project ""
+				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/f6f3b632-57ee-4368-8954-2ac72372b096"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4068,54 +4235,53 @@
 		)
 	)
 	(symbol
-		(lib_id "0ZCA0100FF2E:0ZCA0100FF2E")
-		(at 113.03 91.44 270)
+		(lib_id "2024-10-22_12-55-56:TT10M-13")
+		(at 261.62 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "87aa3dbe-6550-4158-9b2a-b6552871b37f")
-		(property "Reference" "R6"
-			(at 115.57 90.1699 90)
+		(uuid "7e2e2f5e-2e4c-4798-a63d-4fb4f00c6582")
+		(property "Reference" "BR1"
+			(at 266.7 84.6738 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "0ZCA0100FF2E"
-			(at 115.57 92.7099 90)
+		(property "Value" "TT10M-13"
+			(at 266.7 87.2138 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "0ZCA0100FF2E:RESC3216X125N"
-			(at 113.03 91.44 0)
+		(property "Footprint" "TT10M_DIO"
+			(at 261.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 113.03 91.44 0)
+		(property "Datasheet" "TT10M-13"
+			(at 261.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 113.03 91.44 0)
+			(at 261.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4123,96 +4289,161 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Bel Fuse"
-			(at 113.03 91.44 0)
+		(pin "3"
+			(uuid "6e4a3e4e-c003-4e85-9472-a877c0e692e7")
+		)
+		(pin "4"
+			(uuid "0693b6f8-aa6a-4c23-9ee2-ca86147654aa")
+		)
+		(pin "2"
+			(uuid "0f6c7a92-2a3f-46f9-926f-7ad4cb6aae27")
+		)
+		(pin "1"
+			(uuid "9ebdb1a7-8792-49de-ad40-fbbc06df1ff4")
+		)
+		(instances
+			(project ""
+				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/f6f3b632-57ee-4368-8954-2ac72372b096"
+					(reference "BR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 76.2 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3e5f251-482f-4c95-8c5b-965456334ede")
+		(property "Reference" "F1"
+			(at 76.2 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "Value" "Polyfuse"
+			(at 76.2 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\nPolymeric PTC Resettable Fuse 6V 1 A Ih Surface Mount 1206 (3216 Metric), Concave\n"
-			(at 113.03 91.44 0)
+		(property "Datasheet" "~"
+			(at 76.2 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Package" "1206 Bel Fuse"
-			(at 113.03 91.44 0)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 76.2 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 113.03 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0ZCA0100FF2E/Bel+Fuse+Inc./view-part/?ref=snap"
-			(at 113.03 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "0ZCA0100FF2E"
-			(at 113.03 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 113.03 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/0ZCA0100FF2E/Bel+Fuse+Inc./view-part/?ref=eda"
-			(at 113.03 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "f6498975-4b89-46fd-8e22-df3ba5cbf264")
+			(uuid "9cb86abc-8f9e-473f-972e-7ed93c4cd6ab")
 		)
 		(pin "2"
-			(uuid "0966d2a8-2075-46aa-aef9-35702532aea9")
+			(uuid "fb7186a3-ce94-47d1-ba04-e35525ef6495")
 		)
 		(instances
-			(project "flyback-pcb"
+			(project ""
 				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/f6f3b632-57ee-4368-8954-2ac72372b096"
-					(reference "R6")
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Variable_US")
+		(at 113.03 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2e5be85-d575-40ad-a57e-ba54286ca7e2")
+		(property "Reference" "R2"
+			(at 116.84 91.4018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Variable_US"
+			(at 116.84 93.9418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.252 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Variable resistor, US symbol"
+			(at 113.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "167dec01-7819-4d3c-b0e2-5b99660b00ce")
+		)
+		(pin "2"
+			(uuid "2a92a279-0c57-4905-8a4a-8d725339f3e6")
+		)
+		(instances
+			(project ""
+				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/f6f3b632-57ee-4368-8954-2ac72372b096"
+					(reference "R2")
 					(unit 1)
 				)
 			)
