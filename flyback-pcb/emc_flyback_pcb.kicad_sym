@@ -5406,11 +5406,11 @@
 			)
 		)
 	)
-	(symbol "PQ_32/20"
+	(symbol "PQ3220"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "T"
+		(property "Reference" "T.1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5453,43 +5453,11 @@
 				(hide yes)
 			)
 		)
-		(symbol "PQ_32/20_0_1"
-			(circle
-				(center -5.08 -13.97)
-				(radius 0.2737)
-				(stroke
-					(width 0)
-					(type default)
+		(symbol "PQ3220_0_1"
+			(polyline
+				(pts
+					(xy -2.54 -7.62) (xy -2.54 -63.5)
 				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -5.08 -2.54)
-				(radius 0.2737)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -5.08 10.16)
-				(radius 0.2737)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 2.54 10.16)
-				(radius 0.2737)
 				(stroke
 					(width 0)
 					(type default)
@@ -5499,11 +5467,11 @@
 				)
 			)
 		)
-		(symbol "PQ_32/20_1_0"
+		(symbol "PQ3220_1_0"
 			(arc
-				(start -4.8048 -14.8336)
-				(mid -4.0428 -13.9446)
-				(end -4.8048 -13.0556)
+				(start -7.62 -56.7436)
+				(mid -6.858 -55.8546)
+				(end -7.62 -54.9656)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5513,9 +5481,9 @@
 				)
 			)
 			(arc
-				(start -4.8048 -13.1572)
-				(mid -4.0428 -12.2682)
-				(end -4.8048 -11.3792)
+				(start -7.62 -56.642)
+				(mid -6.9596 -55.8546)
+				(end -7.62 -55.0672)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5525,9 +5493,9 @@
 				)
 			)
 			(arc
-				(start -4.8048 -11.4808)
-				(mid -4.0428 -10.5918)
-				(end -4.8048 -9.7028)
+				(start -7.62 -55.0672)
+				(mid -6.858 -54.1782)
+				(end -7.62 -53.2892)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5537,9 +5505,9 @@
 				)
 			)
 			(arc
-				(start -4.8048 -9.8044)
-				(mid -4.0428 -8.9154)
-				(end -4.8048 -8.0264)
+				(start -7.62 -54.9656)
+				(mid -6.9596 -54.1782)
+				(end -7.62 -53.3908)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5549,9 +5517,9 @@
 				)
 			)
 			(arc
-				(start -4.8048 -3.4036)
-				(mid -4.0428 -2.5146)
-				(end -4.8048 -1.6256)
+				(start -7.62 -53.3908)
+				(mid -6.858 -52.5018)
+				(end -7.62 -51.6128)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5561,9 +5529,9 @@
 				)
 			)
 			(arc
-				(start -4.8048 -1.7272)
-				(mid -4.0428 -0.8382)
-				(end -4.8048 0.0508)
+				(start -7.62 -53.2892)
+				(mid -6.9596 -52.5018)
+				(end -7.62 -51.7144)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5573,9 +5541,9 @@
 				)
 			)
 			(arc
-				(start -4.8048 -0.0508)
-				(mid -4.0428 0.8382)
-				(end -4.8048 1.7272)
+				(start -7.62 -51.7144)
+				(mid -6.858 -50.8254)
+				(end -7.62 -49.9364)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5585,9 +5553,9 @@
 				)
 			)
 			(arc
-				(start -4.8048 1.6256)
-				(mid -4.0428 2.5146)
-				(end -4.8048 3.4036)
+				(start -7.62 -51.6128)
+				(mid -6.9596 -50.8254)
+				(end -7.62 -50.038)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5597,9 +5565,9 @@
 				)
 			)
 			(arc
-				(start -4.8048 9.2964)
-				(mid -4.0428 10.1854)
-				(end -4.8048 11.0744)
+				(start -7.62 -33.8836)
+				(mid -6.858 -32.9946)
+				(end -7.62 -32.1056)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5609,9 +5577,9 @@
 				)
 			)
 			(arc
-				(start -4.8048 10.9728)
-				(mid -4.0428 11.8618)
-				(end -4.8048 12.7508)
+				(start -7.62 -33.782)
+				(mid -6.9596 -32.9946)
+				(end -7.62 -32.2072)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5621,9 +5589,9 @@
 				)
 			)
 			(arc
-				(start -4.8048 12.6492)
-				(mid -4.0428 13.5382)
-				(end -4.8048 14.4272)
+				(start -7.62 -32.2072)
+				(mid -6.858 -31.3182)
+				(end -7.62 -30.4292)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5633,9 +5601,153 @@
 				)
 			)
 			(arc
-				(start -4.8048 14.3256)
-				(mid -4.0428 15.2146)
-				(end -4.8048 16.1036)
+				(start -7.62 -32.1056)
+				(mid -6.9596 -31.3182)
+				(end -7.62 -30.5308)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -7.62 -30.5308)
+				(mid -6.858 -29.6418)
+				(end -7.62 -28.7528)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -7.62 -30.4292)
+				(mid -6.9596 -29.6418)
+				(end -7.62 -28.8544)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -7.62 -28.8544)
+				(mid -6.858 -27.9654)
+				(end -7.62 -27.0764)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -7.62 -28.7528)
+				(mid -6.9596 -27.9654)
+				(end -7.62 -27.178)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -7.62 -16.1036)
+				(mid -6.858 -15.2146)
+				(end -7.62 -14.3256)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -7.62 -16.002)
+				(mid -6.9596 -15.2146)
+				(end -7.62 -14.4272)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -7.62 -14.4272)
+				(mid -6.858 -13.5382)
+				(end -7.62 -12.6492)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -7.62 -14.3256)
+				(mid -6.9596 -13.5382)
+				(end -7.62 -12.7508)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -7.62 -12.7508)
+				(mid -6.858 -11.8618)
+				(end -7.62 -10.9728)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -7.62 -12.6492)
+				(mid -6.9596 -11.8618)
+				(end -7.62 -11.0744)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -7.62 -11.0744)
+				(mid -6.858 -10.1854)
+				(end -7.62 -9.2964)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -7.62 -10.9728)
+				(mid -6.9596 -10.1854)
+				(end -7.62 -9.398)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5646,7 +5758,7 @@
 			)
 			(polyline
 				(pts
-					(xy -4.9361 -14.8928) (xy -4.9361 -15.2166)
+					(xy -7.62 -56.642) (xy -7.62 -56.8452)
 				)
 				(stroke
 					(width 0.254)
@@ -5658,7 +5770,7 @@
 			)
 			(polyline
 				(pts
-					(xy -4.9361 -3.4628) (xy -4.9361 -3.7866)
+					(xy -7.62 -54.9656) (xy -7.62 -55.0672)
 				)
 				(stroke
 					(width 0.254)
@@ -5670,7 +5782,7 @@
 			)
 			(polyline
 				(pts
-					(xy -4.9361 9.2372) (xy -4.9361 8.9134)
+					(xy -7.62 -53.2892) (xy -7.62 -53.3908)
 				)
 				(stroke
 					(width 0.254)
@@ -5682,7 +5794,7 @@
 			)
 			(polyline
 				(pts
-					(xy -4.8066 -7.9797) (xy -4.7904 -7.6559)
+					(xy -7.62 -51.6128) (xy -7.62 -51.7144)
 				)
 				(stroke
 					(width 0.254)
@@ -5694,7 +5806,7 @@
 			)
 			(polyline
 				(pts
-					(xy -4.8066 3.4503) (xy -4.7904 3.7741)
+					(xy -7.62 -49.8348) (xy -7.62 -50.038)
 				)
 				(stroke
 					(width 0.254)
@@ -5706,7 +5818,7 @@
 			)
 			(polyline
 				(pts
-					(xy -4.8066 16.1503) (xy -4.7904 16.4741)
+					(xy -7.62 -33.782) (xy -7.62 -33.9852)
 				)
 				(stroke
 					(width 0.254)
@@ -5718,7 +5830,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.2666 16.1503) (xy 2.2504 16.4741)
+					(xy -7.62 -32.1056) (xy -7.62 -32.2072)
 				)
 				(stroke
 					(width 0.254)
@@ -5730,7 +5842,175 @@
 			)
 			(polyline
 				(pts
-					(xy 2.3961 9.2372) (xy 2.3961 8.9134)
+					(xy -7.62 -30.4292) (xy -7.62 -30.5308)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -28.7528) (xy -7.62 -28.8544)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -26.9748) (xy -7.62 -27.178)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -16.002) (xy -7.62 -16.2052)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -14.3256) (xy -7.62 -14.4272)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -12.6492) (xy -7.62 -12.7508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -10.9728) (xy -7.62 -11.0744)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -9.1948) (xy -7.62 -9.398)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.4808 -49.8602) (xy -7.4808 -50.0634)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -16.2052) (xy 8.89 -16.002)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -16.2052) (xy 8.89 -16.002)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -14.4272) (xy 8.89 -14.3256)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -12.7508) (xy 8.89 -12.6492)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -11.0744) (xy 8.89 -10.9728)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -9.398) (xy 8.89 -9.1948)
 				)
 				(stroke
 					(width 0.254)
@@ -5741,9 +6021,9 @@
 				)
 			)
 			(arc
-				(start 2.2648 11.0744)
-				(mid 1.5028 10.1854)
-				(end 2.2648 9.2964)
+				(start 8.89 -14.4272)
+				(mid 8.2296 -15.2146)
+				(end 8.89 -16.002)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5753,9 +6033,9 @@
 				)
 			)
 			(arc
-				(start 2.2648 12.7508)
-				(mid 1.5028 11.8618)
-				(end 2.2648 10.9728)
+				(start 8.89 -14.3256)
+				(mid 8.128 -15.2146)
+				(end 8.89 -16.1036)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5765,9 +6045,9 @@
 				)
 			)
 			(arc
-				(start 2.2648 14.4272)
-				(mid 1.5028 13.5382)
-				(end 2.2648 12.6492)
+				(start 8.89 -12.7508)
+				(mid 8.2296 -13.5382)
+				(end 8.89 -14.3256)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5777,9 +6057,9 @@
 				)
 			)
 			(arc
-				(start 2.2648 16.1036)
-				(mid 1.5028 15.2146)
-				(end 2.2648 14.3256)
+				(start 8.89 -12.6492)
+				(mid 8.128 -13.5382)
+				(end 8.89 -14.4272)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5788,10 +6068,364 @@
 					(type none)
 				)
 			)
-			(pin passive line
-				(at -6.35 16.51 0)
-				(length 1.5748)
-				(name "-"
+			(arc
+				(start 8.89 -11.0744)
+				(mid 8.2296 -11.8618)
+				(end 8.89 -12.6492)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8.89 -10.9728)
+				(mid 8.128 -11.8618)
+				(end 8.89 -12.7508)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8.89 -9.398)
+				(mid 8.2296 -10.1854)
+				(end 8.89 -10.9728)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 8.89 -9.2964)
+				(mid 8.128 -10.1854)
+				(end 8.89 -11.0744)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PQ3220_1_1"
+			(circle
+				(center -7.62 -55.88)
+				(radius 0.1885)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -7.62 -33.02)
+				(radius 0.1885)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -7.62 -15.24)
+				(radius 0.1885)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -57.15) (xy -7.62 -57.15)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -57.15) (xy -7.6199 -56.7899)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -49.53) (xy -7.62 -50.0547)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -49.53) (xy -7.62 -49.53)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -34.29) (xy -7.62 -34.29)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -34.29) (xy -7.6199 -33.9299)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -26.67) (xy -7.62 -27.1947)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -26.67) (xy -7.62 -26.67)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -16.51) (xy -7.62 -16.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -16.51) (xy -7.6199 -16.1499)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -8.89) (xy -7.62 -9.4147)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.4808 -49.5554) (xy -7.4808 -49.5554)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.4808 -26.6954) (xy -7.4808 -26.6954)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.2108 -49.5554) (xy -6.2108 -49.5554)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -7.62) (xy 2.54 -63.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -16.51) (xy 8.89 -16.51)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -16.51) (xy 8.89 -15.9853)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -8.89) (xy 8.8899 -9.2501)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -8.89) (xy 8.89 -8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 8.89 -15.24)
+				(radius 0.1885)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "Bias Primary"
+				(at -15.24 -53.086 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "PRIMARY 1"
+				(at -16.256 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "PRIMARY 2\n"
+				(at -16.256 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "Secondary"
+				(at 15.748 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -7.62 270)
+				(length 1.27)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5806,10 +6440,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -6.35 8.89 0)
-				(length 1.5748)
-				(name "+"
+			(pin input line
+				(at -7.62 -25.4 270)
+				(length 1.27)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5824,10 +6458,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -6.35 3.81 0)
-				(length 1.5748)
-				(name "-"
+			(pin output line
+				(at -7.62 -17.78 90)
+				(length 1.27)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5842,10 +6476,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -6.35 -3.81 0)
-				(length 1.5748)
-				(name "+"
+			(pin output line
+				(at -7.62 -35.56 90)
+				(length 1.27)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5860,10 +6494,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -6.35 -7.62 0)
-				(length 1.5748)
-				(name "-"
+			(pin input line
+				(at -7.62 -48.26 270)
+				(length 1.27)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5878,10 +6512,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -6.35 -15.24 0)
-				(length 1.5748)
-				(name "+"
+			(pin output line
+				(at -7.62 -58.42 90)
+				(length 1.27)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5896,10 +6530,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 3.81 8.89 180)
-				(length 1.5748)
-				(name "+"
+			(pin output line
+				(at 8.89 -17.78 90)
+				(length 1.27)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5914,10 +6548,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 3.81 16.51 180)
-				(length 1.5748)
-				(name "-"
+			(pin input line
+				(at 8.89 -7.62 270)
+				(length 1.27)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5929,64 +6563,6 @@
 						(font
 							(size 1.27 1.27)
 						)
-					)
-				)
-			)
-		)
-		(symbol "PQ_32/20_1_1"
-			(polyline
-				(pts
-					(xy -2.54 17.78) (xy -2.54 -15.24)
-				)
-				(stroke
-					(width 0.3)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 17.78) (xy 0 -15.24)
-				)
-				(stroke
-					(width 0.3)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(text "Bias Primary"
-				(at -13.462 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "Primary 1"
-				(at -12.954 12.954 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "Primary 2"
-				(at -12.7 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "Secondary"
-				(at 9.906 12.954 0)
-				(effects
-					(font
-						(size 1.27 1.27)
 					)
 				)
 			)
