@@ -1,0 +1,18 @@
+.FDBL86210-F085 :1 ;MOSFET N-Ch 150V 169A PowerTrench PSOF8
+H-PSOF8L-11.68X9.80_1
+*STM Q
+*NGS
+*PLB 1="G" 2="S_1" 3="S_2" 4="S_3" 5="S_4" 6="S_5" 7="S_6" 8="S_7" 9="D"
+*MXP 13
+*DFN FDBL86210-F085
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (FDBL86210-F085)
+~!Mouser Part Number (512-FDBL86210_F085)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FDBL86210-F085?qs=0lQeLiL1qybvN4JdfMs10g%3D%3D)
+~!Arrow Part Number (FDBL86210-F085)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/fdbl86210-f085/on-semiconductor?region=nac)
+~!Link Datasheet (https://www.onsemi.com/pub/Collateral/FDBL86210_F085-D.PDF)
+~!Height (-)
+~!3D_Model (FDBL86210-F085)
+FDBL86210-F085
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 

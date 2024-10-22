@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'FDBL86210_F085'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "onsemi", "FDBL86210-F085" (!) = "", "H-PSOF8L-11.68X9.80_1", "Other", "512-FDBL86210_F085", "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FDBL86210-F085?qs=0lQeLiL1qybvN4JdfMs10g%3D%3D", "FDBL86210-F085", "https://www.arrow.com/en/products/fdbl86210-f085/on-semiconductor?region=nac", "MOSFET N-Ch 150V 169A PowerTrench PSOF8", "https://www.onsemi.com/pub/Collateral/FDBL86210_F085-D.PDF"
+END_PART
+
+END.

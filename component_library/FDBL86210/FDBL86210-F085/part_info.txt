@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=FDBL86210-F085
+PartCategory=MOSFET (N-Channel)
+PackageCategory=Other
+PinCount=9
+Version=1.1
+Released=2019-04-27 09:33:29
+Downloaded=2024-10-22 09:23:48
+3D=Y
