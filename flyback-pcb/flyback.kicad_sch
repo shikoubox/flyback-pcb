@@ -141,163 +141,6 @@
 				)
 			)
 		)
-		(symbol "Device:L"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers hide)
 			(pin_names
@@ -946,40 +789,442 @@
 				)
 			)
 		)
-	)
-	(junction
-		(at 81.28 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "287f38ad-5d3e-42db-956f-94788613fb3d")
-	)
-	(junction
-		(at 123.19 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a35f82c-eb5e-4228-8a82-9e866ce78902")
-	)
-	(junction
-		(at 106.68 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c00db35-3798-4a2c-8ea9-13324ba69575")
-	)
-	(junction
-		(at 81.28 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f250f494-48dc-487e-a4ef-604f23df3450")
-	)
-	(wire
-		(pts
-			(xy 60.96 77.47) (xy 69.85 77.47)
+		(symbol "WE-LPCC:WE-LPCC"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "WE-LPCC"
+				(at -3.81 -4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "WE-LPCC:WE-LPCC_7448680140"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Würth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nCHOKE, COMMON MODE, 230UH, 16A, RAD; Inductance:230µH; Rated Current:16A; Product Range:WE-LPCC Series; SVHC:No SVHC (15-Jan-2019)\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MOUNT" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "IR" "16A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "VALUE" "230uH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "VR" "250  V (AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/7448680140/Wurth+Elektronik/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DATASHEET-URL" "https://katalog.we-online.com/pbs/datasheet/7448680140.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "7448680140"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "RDC" "3.6mOhm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PART-NUMBER" "7448680140"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "VT" "1500  V (AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/7448680140/Wurth+Elektronik/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "WE-LPCC_0_0"
+				(circle
+					(center -5.3 -0.6)
+					(radius 0.1)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.3 0.7)
+					(radius 0.1)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 2.54)
+					(mid -3.81 1.2755)
+					(end -2.54 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.54)
+					(mid -3.81 -1.2755)
+					(end -5.08 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.54)
+					(mid -1.27 1.2755)
+					(end 0 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.54)
+					(mid -1.27 -1.2755)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -0.635) (xy 4.445 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 0.635) (xy 4.445 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.54)
+					(mid 1.27 1.2755)
+					(end 2.54 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -2.54)
+					(mid 1.27 -1.2755)
+					(end 0 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 2.54)
+					(mid 3.81 1.2755)
+					(end 5.08 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 -2.54)
+					(mid 3.81 -1.2755)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "049db941-8b97-4922-8f2d-58b6a336478d")
+	)
+	(junction
+		(at 81.28 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ef6ca7f-92ce-43a6-bc76-1a773042463a")
 	)
 	(wire
 		(pts
@@ -1013,7 +1258,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 86.36) (xy 53.34 86.36)
+			(xy 39.37 86.36) (xy 54.61 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1023,17 +1268,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 82.55) (xy 123.19 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20ed996f-46b4-4d8b-8f2c-e1d74bde0b4a")
-	)
-	(wire
-		(pts
-			(xy 53.34 60.96) (xy 39.37 60.96)
+			(xy 54.61 60.96) (xy 39.37 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1043,27 +1278,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 78.74) (xy 133.35 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c513626-2bdb-4b57-8a21-01eb9ec02a41")
-	)
-	(wire
-		(pts
-			(xy 106.68 68.58) (xy 106.68 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e33b3ea-79c9-45ac-b69d-13ef1f483f63")
-	)
-	(wire
-		(pts
-			(xy 53.34 77.47) (xy 53.34 86.36)
+			(xy 54.61 76.2) (xy 54.61 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1073,13 +1288,23 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 68.58) (xy 109.22 68.58)
+			(xy 69.85 71.12) (xy 81.28 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55bc28e9-8838-475e-8ba5-d83cd4327186")
+		(uuid "520fa50c-439e-41cc-b94d-237b89e6d1e8")
+	)
+	(wire
+		(pts
+			(xy 81.28 71.12) (xy 81.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55bb075d-dee1-48ac-bd35-a0b5c3997c43")
 	)
 	(wire
 		(pts
@@ -1093,16 +1318,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 73.66) (xy 133.35 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64a516d7-2a09-416d-a7e9-23c507df2827")
-	)
-	(wire
-		(pts
 			(xy 123.19 107.95) (xy 116.84 107.95)
 		)
 		(stroke
@@ -1113,7 +1328,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 68.58) (xy 106.68 68.58)
+			(xy 81.28 71.12) (xy 106.68 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1123,7 +1338,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 77.47) (xy 69.85 82.55)
+			(xy 69.85 76.2) (xy 69.85 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1153,7 +1368,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 85.09) (xy 123.19 82.55)
+			(xy 123.19 76.2) (xy 123.19 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1163,7 +1378,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 68.58) (xy 53.34 60.96)
+			(xy 54.61 71.12) (xy 54.61 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1173,33 +1388,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 68.58) (xy 81.28 68.58)
+			(xy 123.19 76.2) (xy 129.54 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bded66dc-cf51-4180-85bc-c87d9930ffa6")
-	)
-	(wire
-		(pts
-			(xy 123.19 78.74) (xy 123.19 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9b11bf6-9959-4d28-b906-a94ae876b49e")
-	)
-	(wire
-		(pts
-			(xy 109.22 68.58) (xy 109.22 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcbf3b27-9892-4a7e-8ca3-d15af1c35ac6")
+		(uuid "e2e9769d-bf6b-43d1-b4e1-43fa14b449a2")
 	)
 	(wire
 		(pts
@@ -1220,16 +1415,6 @@
 			(type default)
 		)
 		(uuid "f7d07d25-786d-40a5-be2b-340778918a8d")
-	)
-	(wire
-		(pts
-			(xy 81.28 68.58) (xy 81.28 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdcbed2f-b3ac-4733-8603-bf649509ddf3")
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
@@ -1460,33 +1645,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 137.16 73.66 270)
+		(lib_id "WE-LPCC:WE-LPCC")
+		(at 62.23 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6df5d6e0-930d-4907-ba53-1c4bb7e10cce")
-		(property "Reference" "L2"
-			(at 137.16 68.58 90)
+		(uuid "b6b1e45d-50bf-4ec1-bd33-13d8af690885")
+		(property "Reference" "L5"
+			(at 62.07 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "L"
-			(at 137.16 71.12 90)
+		(property "Value" "WE-LPCC"
+			(at 62.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 137.16 73.66 0)
+		(property "Footprint" "WE-LPCC:WE-LPCC_7448680140"
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1494,8 +1689,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 137.16 73.66 0)
+		(property "Description" ""
+			(at 62.23 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1503,249 +1698,182 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 137.16 73.66 0)
+		(property "MF" "Würth Elektronik"
+			(at 62.23 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nCHOKE, COMMON MODE, 230UH, 16A, RAD; Inductance:230µH; Rated Current:16A; Product Range:WE-LPCC Series; SVHC:No SVHC (15-Jan-2019)\n"
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" "SMT"
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "IR" "16A"
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VALUE" "230uH"
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VR" "250  V (AC)"
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/7448680140/Wurth+Elektronik/view-part/?ref=snap"
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" "https://katalog.we-online.com/pbs/datasheet/7448680140.pdf"
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "7448680140"
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "RDC" "3.6mOhm"
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" "7448680140"
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VT" "1500  V (AC)"
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/7448680140/Wurth+Elektronik/view-part/?ref=eda"
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "cb987591-eabc-4ca3-8b38-c75b92c90783")
+			(uuid "3587237b-549f-4f91-b54d-069d7952ec41")
 		)
 		(pin "2"
-			(uuid "719ab72b-7a17-487e-8c27-d050f1dba2f9")
-		)
-		(instances
-			(project ""
-				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/16bd232e-5ea0-49a5-b25c-6403c4d2754c"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 137.16 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "963563a1-ce1a-466d-be58-cb3fc2328b8c")
-		(property "Reference" "L1"
-			(at 137.16 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L"
-			(at 137.16 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 137.16 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e8be15b4-d2ec-47f6-93d9-d165efb31330")
-		)
-		(pin "1"
-			(uuid "74304500-662f-4906-8c45-1b1b412a8ae9")
-		)
-		(instances
-			(project ""
-				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/16bd232e-5ea0-49a5-b25c-6403c4d2754c"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Management:CAP200DG")
-		(at 205.74 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bedb4fa9-fd6d-4274-992f-d091cd6a27f8")
-		(property "Reference" "U2"
-			(at 212.09 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CAP200DG"
-			(at 212.09 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 205.74 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ac-dc.power.com/sites/default/files/product-docs/capzero-2_family_datasheet.pdf"
-			(at 206.756 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CapZero Zero Loss Automatic Capacitor Discharge IC, 1000V, 100nF-6uF, 7.5M-142kOhm, SOIC-8"
-			(at 205.74 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "4d07be76-e352-4e2f-a4a5-5ae79001b3f8")
-		)
-		(pin "5"
-			(uuid "3805123b-d5eb-4d54-ad1f-c0730fce6551")
-		)
-		(pin "2"
-			(uuid "f2221a02-c42a-4df0-b6e9-6e90fe258901")
+			(uuid "f0213a24-7e30-4ba4-aadf-a72c1c873de8")
 		)
 		(pin "4"
-			(uuid "ad732721-f177-4eb1-83b7-abadbca3156c")
+			(uuid "54474352-9a67-4442-aab1-a86ba163e711")
 		)
 		(pin "3"
-			(uuid "0a20f2e7-54f0-4a16-b3c8-6c8315ee3095")
-		)
-		(pin "6"
-			(uuid "55bf8408-0557-4ba2-adf1-a727c0f9f182")
-		)
-		(pin "7"
-			(uuid "b961cd7f-5ac3-4e2f-a38d-21b6149fd5d1")
-		)
-		(pin "1"
-			(uuid "9cfd3823-8388-43e3-9c4e-837a0097c80e")
+			(uuid "fc7caa9b-24ed-461c-a474-5eb6b7048edc")
 		)
 		(instances
-			(project "flyback-pcb"
+			(project ""
 				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/16bd232e-5ea0-49a5-b25c-6403c4d2754c"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 57.15 68.58 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5c3bafa-5c82-4bc7-9987-dfed41e0dab6")
-		(property "Reference" "L3"
-			(at 57.15 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "230µH"
-			(at 57.15 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 57.15 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7014ac28-d440-41d2-b861-6f2bacdec03c")
-		)
-		(pin "2"
-			(uuid "14f6c60f-0b6a-4fb9-819f-3eb3c434f4c8")
-		)
-		(instances
-			(project "flyback-pcb"
-				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/16bd232e-5ea0-49a5-b25c-6403c4d2754c"
-					(reference "L3")
+					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -1886,73 +2014,6 @@
 			(project "flyback-pcb"
 				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/16bd232e-5ea0-49a5-b25c-6403c4d2754c"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 57.15 77.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f898ff04-d76f-4067-9941-77eb7f5afc87")
-		(property "Reference" "L4"
-			(at 57.15 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "230µH"
-			(at 57.15 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 57.15 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e27aff69-939a-472a-8ef9-d22153263ba0")
-		)
-		(pin "1"
-			(uuid "76c657de-8a78-4754-bb52-19b750a3147f")
-		)
-		(instances
-			(project "flyback-pcb"
-				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/16bd232e-5ea0-49a5-b25c-6403c4d2754c"
-					(reference "L4")
 					(unit 1)
 				)
 			)
