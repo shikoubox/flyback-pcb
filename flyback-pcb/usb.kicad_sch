@@ -1667,126 +1667,6 @@
 				)
 			)
 		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 185.42 50.8)
@@ -1876,61 +1756,25 @@
 		(at 168.91 101.6)
 		(uuid "f89e07eb-7471-4ab3-a73b-48cfcf51eb37")
 	)
-	(bus_entry
-		(at 204.47 83.82)
-		(size 2.54 -2.54)
+	(wire
+		(pts
+			(xy 204.47 88.9) (xy 217.17 88.9)
+		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "335a67b5-0e95-4e6a-8585-78301e2c4a33")
-	)
-	(bus_entry
-		(at 204.47 96.52)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5693e569-5aaf-48b4-bf39-049c585cba84")
-	)
-	(bus_entry
-		(at 138.43 83.82)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e2bef3c-9c9f-4260-b031-d52a1ff2211f")
-	)
-	(bus_entry
-		(at 168.91 96.52)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98e0582b-eb31-4911-a2d0-890c74bd3944")
+		(uuid "12d505a1-6720-455f-92e6-ab48efa41ccf")
 	)
 	(wire
 		(pts
-			(xy 204.47 93.98) (xy 223.52 93.98)
+			(xy 204.47 96.52) (xy 207.01 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08a298a8-4308-4786-9afe-b50f1d040d03")
-	)
-	(wire
-		(pts
-			(xy 204.47 88.9) (xy 215.9 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "158848ab-a4ad-4cca-adc6-6368926bde43")
+		(uuid "19b81a40-6160-4598-a4fe-d3ce932ac1c8")
 	)
 	(wire
 		(pts
@@ -1964,6 +1808,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 91.44) (xy 217.17 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31a2a896-394a-4287-83e7-4bf1bff56351")
+	)
+	(wire
+		(pts
 			(xy 161.29 41.91) (xy 161.29 50.8)
 		)
 		(stroke
@@ -1971,16 +1825,6 @@
 			(type default)
 		)
 		(uuid "38813227-37d7-46f9-bfdd-d15873c39b74")
-	)
-	(wire
-		(pts
-			(xy 204.47 91.44) (xy 219.71 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "428c1a74-3535-4692-b1e2-a9d9036ea0b2")
 	)
 	(wire
 		(pts
@@ -2134,6 +1978,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 96.52) (xy 168.91 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50efb39-ad1c-40e2-9672-2fe8fed41ec3")
+	)
+	(wire
+		(pts
 			(xy 203.2 50.8) (xy 203.2 26.67)
 		)
 		(stroke
@@ -2141,6 +1995,16 @@
 			(type default)
 		)
 		(uuid "a6629c80-8705-4661-8bb9-858cb7b3dc55")
+	)
+	(wire
+		(pts
+			(xy 207.01 83.82) (xy 204.47 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7d380a0-47bb-415f-babd-a3e1c7bb5878")
 	)
 	(wire
 		(pts
@@ -2161,6 +2025,16 @@
 			(type default)
 		)
 		(uuid "d1cee6c5-4b82-48c9-b3b6-e77e4de896fa")
+	)
+	(wire
+		(pts
+			(xy 204.47 93.98) (xy 217.17 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e59f548d-12bf-40ba-80e9-ad0242f51e76")
 	)
 	(wire
 		(pts
@@ -2192,137 +2066,335 @@
 		)
 		(uuid "f2fb8b17-1504-4d54-8e0e-026cdd93940f")
 	)
-	(label "CC2"
+	(rectangle
+		(start 128.27 13.335)
+		(end 229.87 62.865)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bc37c9d4-319e-4829-bfaa-3f16b09c660a)
+	)
+	(rectangle
+		(start 128.27 62.865)
+		(end 229.87 121.92)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c921d29c-c2a5-4891-bc6d-1ec097693ae8)
+	)
+	(text "USB C PROTECTION"
+		(exclude_from_sim no)
+		(at 186.69 57.404 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "1dbfc9ea-cbc7-43dd-83d2-5ba63935d842")
+	)
+	(text "USB C CONN"
+		(exclude_from_sim no)
+		(at 180.848 65.786 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "cdd04fa7-c4c1-4060-8cdb-653051357d9d")
+	)
+	(global_label "V_BUS"
+		(shape input)
+		(at 138.43 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a1dd832-3940-45af-b790-6daa73525918")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.5786 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CC2"
+		(shape input)
 		(at 187.96 17.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "00bfe44f-5204-4e02-9773-49cfe4606881")
+		(uuid "30d3cf0b-9a33-4069-83ff-91cf681a0c78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.6947 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "CC1"
-		(at 182.88 17.78 0)
+	(global_label "DPI+"
+		(shape input)
+		(at 217.17 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "0a557230-66d5-422e-8c21-ff8105215284")
+		(uuid "360b21b2-b8d0-489e-8516-1911e2a07e18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.8724 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "V_BUS"
-		(at 207.01 81.28 0)
+	(global_label "CC2"
+		(shape input)
+		(at 217.17 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "3033d992-c9cc-4ace-bfac-816d1edbb292")
+		(uuid "384c5eac-8b15-45d5-8f2e-47105048dbd4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.9047 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "V_BUS"
-		(at 207.01 99.06 0)
+	(global_label "DPI-"
+		(shape input)
+		(at 151.13 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "4ba30d43-2be6-4c6c-9f19-32c04f18c9ec")
+		(uuid "62027d13-f4f5-4abb-b6d3-2d8a5550b62d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.4276 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "DPI+"
-		(at 219.71 91.44 0)
+	(global_label "V_BUS"
+		(shape input)
+		(at 207.01 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "4bac78e1-6345-41af-9ce5-261476c638c3")
+		(uuid "a8f60e16-8eaf-4132-bbb6-d184ca108cfc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.8614 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "V_BUS"
-		(at 135.89 81.28 0)
+	(global_label "V_BUS"
+		(shape input)
+		(at 166.37 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "74559cbf-c1e2-4570-86d2-f7dfc5049ea2")
+		(uuid "c92fbfc0-b75f-4ff5-a688-4687e63da12b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.5186 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "DPI-"
-		(at 151.13 91.44 0)
+	(global_label "CC1"
+		(shape input)
+		(at 182.88 17.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "825150a8-3667-4fbf-9fae-d05b5488d2a9")
+		(uuid "ce718a07-c5ae-4aaf-bc47-d190adb55011")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.1453 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "DPI-"
-		(at 215.9 88.9 0)
+	(global_label "V_BUS"
+		(shape input)
+		(at 207.01 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "8de76ea2-2e3d-47eb-8757-6402fdc7a59c")
+		(uuid "cee96a8b-e22a-4394-ae63-4170bf719c3f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.8614 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "CC2"
-		(at 223.52 93.98 0)
+	(global_label "DPI+"
+		(shape input)
+		(at 151.13 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "908a927f-53d6-44df-bfb1-406f5cb9dea6")
+		(uuid "db264ee6-effc-4b56-a4a5-54bc2e7487c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.4276 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "DPI+"
-		(at 151.13 88.9 0)
+	(global_label "CC1"
+		(shape input)
+		(at 151.13 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "9a5362d5-724f-4595-a1de-e3a2291b7388")
+		(uuid "df4f8650-d9d5-411f-b2fc-4b119eb522ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.3953 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "V_BUS"
-		(at 166.37 99.06 180)
+	(global_label "V_BUS"
+		(shape input)
+		(at 161.29 22.86 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "d2b04c65-f5a7-4039-a6ff-52440de22460")
+		(uuid "e3794f01-6580-4b95-b352-eedf0351282f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.29 14.0086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "CC1"
-		(at 151.13 86.36 0)
+	(global_label "DPI-"
+		(shape input)
+		(at 217.17 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "d78329d9-dd84-4ca7-99aa-6b8746475eda")
+		(uuid "e553cb0a-456a-4e7b-8c65-40d678af3658")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.8724 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2332,18 +2404,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "00c9b745-9f2b-4589-a4ba-8c9297adec4b")
-		(property "Reference" "C5"
-			(at 195.58 19.05 90)
+		(property "Reference" "C24"
+			(at 196.088 21.336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 195.58 21.59 90)
+		(property "Value" "560pF"
+			(at 197.104 23.114 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,7 +2457,7 @@
 		(instances
 			(project ""
 				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/c2a714f4-2f0d-4f97-91a2-4e2ae3601671"
-					(reference "C5")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -2411,7 +2482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "VBUS_GND"
 			(at 208.28 104.1399 90)
 			(effects
 				(font
@@ -2467,10 +2538,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2cf3b46f-e01d-4e7e-9b3e-46d647aa6d68")
-		(property "Reference" "D2"
-			(at 163.83 35.5599 90)
+		(property "Reference" "D7"
+			(at 148.844 36.576 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,7 +2549,7 @@
 			)
 		)
 		(property "Value" "824045810"
-			(at 163.83 38.0999 90)
+			(at 148.844 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2488,12 +2558,13 @@
 			)
 		)
 		(property "Footprint" "emc_flyback_pcb:WE-TVS_DFN1610-2L"
-			(at 163.83 40.6399 90)
+			(at 167.894 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/ProductDetail/Wurth-Elektronik/824045810?qs=1Kr7Jg1SGW86CbQtiVw09Q%3D%3D"
@@ -2523,7 +2594,7 @@
 		(instances
 			(project ""
 				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/c2a714f4-2f0d-4f97-91a2-4e2ae3601671"
-					(reference "D2")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -2539,7 +2610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ee2be62-9abb-4df2-b5d6-cd39ff0af51e")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 151.13 78.7399 0)
 			(effects
 				(font
@@ -2555,6 +2626,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -2593,7 +2665,7 @@
 		(instances
 			(project ""
 				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/c2a714f4-2f0d-4f97-91a2-4e2ae3601671"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2618,7 +2690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "VBUS_GND"
 			(at 186.69 119.38 0)
 			(effects
 				(font
@@ -2684,7 +2756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "VBUS_GND"
 			(at 208.28 76.1999 90)
 			(effects
 				(font
@@ -2740,10 +2812,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7af8d8cc-26a8-46f7-8710-379d6bf52993")
-		(property "Reference" "D1"
-			(at 191.77 38.2904 90)
+		(property "Reference" "D6"
+			(at 190.754 38.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2752,7 +2823,7 @@
 			)
 		)
 		(property "Value" "824012823"
-			(at 191.77 40.8304 90)
+			(at 190.754 40.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2799,73 +2870,7 @@
 		(instances
 			(project ""
 				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/c2a714f4-2f0d-4f97-91a2-4e2ae3601671"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 161.29 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94c3fc64-bffc-4fd2-803f-c0846b31d0e6")
-		(property "Reference" "#PWR010"
-			(at 161.29 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 161.29 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 161.29 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fed17e75-2871-4636-8fd4-2f167c422b60")
-		)
-		(instances
-			(project ""
-				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/c2a714f4-2f0d-4f97-91a2-4e2ae3601671"
-					(reference "#PWR010")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2890,7 +2895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "VBUS_GND"
 			(at 161.29 55.88 0)
 			(effects
 				(font
@@ -2945,18 +2950,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a971f7e9-c111-477e-806e-24a46ac76d1b")
-		(property "Reference" "C2"
-			(at 173.99 19.05 90)
+		(property "Reference" "C23"
+			(at 173.482 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 173.99 21.59 90)
+		(property "Value" "560pF"
+			(at 174.498 23.368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2999,7 +3003,7 @@
 		(instances
 			(project ""
 				(path "/ed7c0781-0d20-4118-b9de-6cfbb6417a17/c2a714f4-2f0d-4f97-91a2-4e2ae3601671"
-					(reference "C2")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -3303,7 +3307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "VBUS_GND"
 			(at 165.1 104.1399 90)
 			(effects
 				(font
@@ -3370,7 +3374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "VBUS_GND"
 			(at 168.91 71.12 0)
 			(effects
 				(font
